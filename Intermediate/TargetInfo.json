@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "ArchitectureExplorer",
+			"Path": "C:\\Users\\jaqso\\Documents\\Unreal\\Projects\\ArchitectureExplorer\\Source\\ArchitectureExplorer.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ArchitectureExplorerEditor",
+			"Path": "C:\\Users\\jaqso\\Documents\\Unreal\\Projects\\ArchitectureExplorer\\Source\\ArchitectureExplorerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
