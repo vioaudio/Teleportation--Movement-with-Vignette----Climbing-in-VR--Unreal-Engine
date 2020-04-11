@@ -2,8 +2,10 @@
 
 
 #include "VRCharacter.h"
+#include "GameFramework/Actor.h"
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 AVRCharacter::AVRCharacter()
@@ -16,6 +18,9 @@ AVRCharacter::AVRCharacter()
 
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
+
+	DestinationMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Destination Marker"));
+	DestinationMarker->SetupAttachment(GetRootComponent());
 
 }
 
@@ -43,6 +48,8 @@ void AVRCharacter::Tick(float DeltaTime)
 	//Move VR Root in opposite way
 	VRRoot->AddWorldOffset(-NewCameraOffset);
 
+	UpdateDestinationMarker();
+	
 }
 
 // Called to bind functionality to input
@@ -63,4 +70,35 @@ void AVRCharacter::MoveRight(float throttle)
 {
 	AddMovementInput(throttle * Camera->GetRightVector());
 }
+
+void AVRCharacter::UpdateDestinationMarker()
+{
+	FHitResult HitResult;
+	FVector Start = Camera->GetComponentLocation();
+	FVector End = Start + Camera->GetForwardVector() * MaxTeleportDistance;
+	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility); //Line Trace
+
+	//Set the teleport destination
+	if (bHit)
+	{
+		DestinationMarker->SetWorldLocation(HitResult.Location);
+	}
+}
+
+//Teleport Function 
+
+
+//Line Trace
+
+
+//Get Hit Location
+
+//Show the destination to the player
+
+//Fade out the viewport
+
+//Move Player to Desitnation
+
+//Fade in the viewport 
+
 
