@@ -27,14 +27,22 @@ public:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
 private: 
+	void BeginTeleport();
+	bool FindTeleportDestination(FVector &OutLocation);
+	void FinishTeleport();
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
+	void StartCameraFade(float FromAlpha, float ToAlpha);
 	void UpdateDestinationMarker();
 
 
 private:
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* Camera;
+	UPROPERTY()
+	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
+	UPROPERTY()
+	class UPostProcessComponent* PostProcessComponent;
 	UPROPERTY(VisibleAnywhere)
 	class USceneComponent* VRRoot;
 	UPROPERTY(VisibleAnywhere)
@@ -43,4 +51,11 @@ private:
 private:
 	UPROPERTY(EditAnywhere)
 	float MaxTeleportDistance = 1000.f;
+	UPROPERTY(EditAnywhere)
+	float TeleportFadeTime = 1.f;
+	UPROPERTY(EditAnywhere)
+	FVector TeleportProjectionExtent = FVector(100, 100, 100);
+	UPROPERTY(EditAnywhere)
+	class UMaterialInterface* BlinkerMaterialBase;
+
 };
