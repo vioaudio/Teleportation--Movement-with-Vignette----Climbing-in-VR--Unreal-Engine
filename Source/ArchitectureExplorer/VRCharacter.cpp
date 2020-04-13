@@ -2,13 +2,14 @@
 
 
 #include "VRCharacter.h"
-#include "GameFramework/Actor.h"
 #include "Camera/CameraComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/InputComponent.h"
 #include "Components/PostProcessComponent.h"
 #include "Components/SceneComponent.h"
 #include "Components/StaticMeshComponent.h"
+#include "Curves/CurveFloat.h"
+#include "GameFramework/Actor.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "TimerManager.h"
 
@@ -45,7 +46,7 @@ void AVRCharacter::BeginPlay()
 	{
 		BlinkerMaterialInstance = UMaterialInstanceDynamic::Create(BlinkerMaterialBase, this);
 		PostProcessComponent->AddOrUpdateBlendable(BlinkerMaterialInstance);
-		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), .2f);
+		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), 1);
 	}
 }
 
@@ -56,7 +57,7 @@ void AVRCharacter::Tick(float DeltaTime)
 
 	//Calculate how much HMD moved in this frame
 	FVector NewCameraOffset = Camera->GetComponentLocation() - GetActorLocation();
-	
+
 	//Removes Up & Down (only works if Up is on the Z axis)
 	NewCameraOffset.Z = 0;
 
@@ -67,14 +68,13 @@ void AVRCharacter::Tick(float DeltaTime)
 	VRRoot->AddWorldOffset(-NewCameraOffset);
 
 	UpdateDestinationMarker();
-	
+	UpdateBlinkers();
 }
 
 // Called to bind functionality to input
 void AVRCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
 	PlayerInputComponent->BindAxis(TEXT("Forward"), this, &AVRCharacter::MoveForward);
 	PlayerInputComponent->BindAxis(TEXT("Right"), this, &AVRCharacter::MoveRight);
 	PlayerInputComponent->BindAction(TEXT("Teleport"), IE_Released, this, &AVRCharacter::BeginTeleport);
@@ -86,6 +86,46 @@ void AVRCharacter::BeginTeleport()
 	StartCameraFade(0, 1);
 	FTimerHandle Handle;
 	GetWorldTimerManager().SetTimer(Handle, this, &AVRCharacter::FinishTeleport, TeleportFadeTime);
+}
+
+FVector2D AVRCharacter::GetBlinkersCenter()
+{
+	FVector MovementDirection = GetVelocity().GetSafeNormal(); 
+	if (MovementDirection.IsNearlyZero())
+	{
+		return FVector2D(0.5f, 0.5f);
+	}
+
+	return FVector2D();
+
+	FVector WorldStationaryPosition;
+
+	if (FVector::DotProduct(Camera->GetForwardVector(), MovementDirection) > 0) 
+	{
+		WorldStationaryPosition = Camera->GetComponentLocation() + MovementDirection * 1000.f; //Moving Forward Solution
+	}
+	else
+	{
+		WorldStationaryPosition = Camera->GetComponentLocation() - MovementDirection * 1000.f; //Moving Backward Solution
+	}
+
+	APlayerController* PC = Cast<APlayerController>(GetController());
+	if (PC == nullptr)
+	{
+		return FVector2D(0.5, 0.5f);
+	}
+
+	FVector2D ScreenStationaryLocation;
+	PC->ProjectWorldLocationToScreen(WorldStationaryPosition, ScreenStationaryLocation);
+
+	int32 SizeX, SizeY;
+	PC->GetViewportSize(SizeX, SizeY);
+
+	//Convert Into UVs
+	ScreenStationaryLocation.X /= SizeX;
+	ScreenStationaryLocation.Y /= SizeY;
+	return FVector2D(0.5, 0.5f); //return ScreenStationaryLocation;
+	
 }
 
 bool AVRCharacter::FindTeleportDestination(FVector & OutLocation)
@@ -124,6 +164,20 @@ void AVRCharacter::StartCameraFade(float FromAlpha, float ToAlpha)
 	if (PC != nullptr)
 	{
 		PC->PlayerCameraManager->StartCameraFade(FromAlpha, ToAlpha, TeleportFadeTime, FLinearColor::Black);
+	}
+}
+
+void AVRCharacter::UpdateBlinkers()
+{
+	if (RadiusVsVelocity == nullptr) { return; }
+	else
+	{
+		float Speed = GetVelocity().Size();
+		float Radius = RadiusVsVelocity->GetFloatValue(Speed); //Gets Radius
+		BlinkerMaterialInstance->SetScalarParameterValue(TEXT("Radius"), Radius);
+
+		//FVector2D Center = GetBlinkersCenter();
+		//BlinkerMaterialInstance->SetVectorParameterValue(TEXT("Center"), FLinearColor(Center.X, Center.Y, 0)); //Sets Center
 	}
 }
 

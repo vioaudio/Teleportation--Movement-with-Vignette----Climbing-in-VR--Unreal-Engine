@@ -2908,3 +2908,1383 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.12-19.31.34:852][605]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
 [2020.04.12-19.31.34:863][606]LogPlayLevel: Display: Destroying online subsystem :Context_19
 [2020.04.12-19.31.34:873][606]LogEngine: Changing dynamic resolution state.
+[2020.04.12-19.51.59:658][824]LogSlate: Window 'Pick Curve Class' being destroyed
+[2020.04.12-19.52.36:090][624]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2020.04.12-19.52.36:092][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.038
+[2020.04.12-19.52.36:092][624]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Curve_RadiusVsVelocity_Float] ([1] browsable assets)...
+[2020.04.12-19.52.36:092][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/Curve_RadiusVsVelocity_Float]
+[2020.04.12-19.52.36:099][624]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Curve_RadiusVsVelocity_Float_AutF16A7B6F4DFAD8F79779F09880186A0D.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Autosaves/Game/Curve_RadiusVsVelocity_Float_Auto6.uasset'
+[2020.04.12-19.52.36:101][624]LogFileHelpers: Auto-saving content packages took 0.009
+[2020.04.12-19.57.48:916][699]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0044.dll
+[2020.04.12-19.57.49:934][703]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.12-19.57.49:985][703]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.04.12-19.57.50:003][703]LogClass: Could not find existing class VRCharacter in package /Script/ArchitectureExplorer for HotReload, assuming new class
+[2020.04.12-19.57.50:016][703]LogHotReload: Re-instancing VRCharacter after hot-reload.
+[2020.04.12-19.57.50:437][703]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.04.12-19.57.50:442][703]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.12-19.57.50:544][703]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.04.12-19.57.50:558][703]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3019 classes and 722 folders.
+[2020.04.12-19.57.50:562][703]Display: HotReload took  0.6s.
+[2020.04.12-19.58.01:038][ 34]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content/Tutorial/ContentIntroCurve.uasset: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content/Tutorial/ContentIntroCurve.uasset' is outside repository
+[2020.04.12-19.58.02:898][143]BlueprintLog: New page: Compile BP_VRCharacter
+[2020.04.12-19.58.03:208][143]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.04.12-19.58.03:875][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_VRCharacter" FILE="../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Content/BP_VRCharacter.uasset" SILENT=true
+[2020.04.12-19.58.03:916][175]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/BP_VRCharacter9E38658A47BB51863D3C32B79D504DA8.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Content/BP_VRCharacter.uasset'
+[2020.04.12-19.58.03:932][175]AssetCheck: New page: Asset Save: BP_VRCharacter
+[2020.04.12-19.58.03:932][175]LogContentValidation: Display: Validating Blueprint /Game/BP_VRCharacter.BP_VRCharacter
+[2020.04.12-20.10.19:698][676]LogAssetEditorSubsystem: Opening Asset editor for CurveFloat /Game/Curve_RadiusVsVelocity_Float.Curve_RadiusVsVelocity_Float
+[2020.04.12-20.11.15:762][917]LogEditorTransaction: Undo Move Key
+[2020.04.12-20.11.15:772][917]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-20.11.15:788][917]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-20.11.15:788][917]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-20.11.15:788][917]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-20.11.15:788][917]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-20.11.16:217][941]LogEditorTransaction: Undo Add Key
+[2020.04.12-20.11.16:222][941]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-20.11.16:233][942]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-20.11.16:233][942]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-20.11.16:233][942]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-20.11.16:233][942]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-20.11.16:567][962]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-20.11.16:567][962]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-20.11.16:567][962]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-20.11.16:567][962]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-20.11.42:097][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2020.04.12-20.11.42:099][ 95]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.114
+[2020.04.12-20.11.42:100][ 95]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Curve_RadiusVsVelocity_Float] ([1] browsable assets)...
+[2020.04.12-20.11.42:100][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/Curve_RadiusVsVelocity_Float]
+[2020.04.12-20.11.42:107][ 95]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Curve_RadiusVsVelocity_Float_AutBD4668034EDAB364247173980C1D3D62.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Autosaves/Game/Curve_RadiusVsVelocity_Float_Auto7.uasset'
+[2020.04.12-20.11.42:108][ 95]LogFileHelpers: Auto-saving content packages took 0.008
+[2020.04.12-20.22.15:939][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2020.04.12-20.22.15:939][ 66]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.059
+[2020.04.12-20.22.15:940][ 66]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Curve_RadiusVsVelocity_Float] ([1] browsable assets)...
+[2020.04.12-20.22.15:940][ 66]OBJ SavePackage: Finished generating thumbnails for package [/Game/Curve_RadiusVsVelocity_Float]
+[2020.04.12-20.22.15:948][ 66]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Curve_RadiusVsVelocity_Float_AutC461A3E548D1757FE476B6A2898B87D4.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Autosaves/Game/Curve_RadiusVsVelocity_Float_Auto8.uasset'
+[2020.04.12-20.22.15:949][ 66]LogFileHelpers: Auto-saving content packages took 0.009
+[2020.04.12-20.29.08:855][682]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0045.dll
+[2020.04.12-20.29.09:872][686]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.12-20.29.09:920][686]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2020.04.12-20.29.09:946][686]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.04.12-20.29.09:951][686]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.12-20.29.10:058][686]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.04.12-20.29.10:072][686]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3019 classes and 722 folders.
+[2020.04.12-20.29.10:076][686]Display: HotReload took  0.2s.
+[2020.04.12-20.29.39:966][855]LogTemp: Repeating last play command: VR Preview
+[2020.04.12-20.29.39:989][855]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.12-20.29.39:989][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.12-20.29.39:990][855]PIE: New page: PIE session: MainMap (Apr 12, 2020, 6:29:39 AM)
+[2020.04.12-20.29.39:990][855]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.12-20.29.40:058][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067843s)
+[2020.04.12-20.29.40:059][855]LogAIModule: Creating AISystem for world MainMap
+[2020.04.12-20.29.40:059][855]LogPlayLevel: PIE: World Init took: (0.001706s)
+[2020.04.12-20.29.40:060][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.069898s)
+[2020.04.12-20.29.40:142][855]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2020.04.12-20.29.40:143][855]LogHMD: Initializing OVRPlugin session
+[2020.04.12-20.29.40:300][855]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.12-20.29.40:314][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.12-20.29.40:314][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.12-20.29.40:314][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.12-20.29.40:314][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.12-20.29.40:314][855]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.12-20.29.40:314][855]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.12-20.29.40:314][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.12-20.29.40:314][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.12-20.29.40:315][855]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.12-20.29.40:315][855]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: Is Default: Yes
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: Channel Order:
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.12-20.29.40:354][855]LogAudioMixer: Display: 1: FrontRight
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: Is Default: Yes
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: Channel Order:
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.12-20.29.40:357][855]LogAudioMixer: Display: 1: FrontRight
+[2020.04.12-20.29.40:376][855]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.12-20.29.40:380][855]LogInit: FAudioDevice initialized.
+[2020.04.12-20.29.40:393][855]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.12-20.29.40:422][855]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.12-20.29.40:439][855]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-13.29.40
+[2020.04.12-20.29.40:440][855]LogWorld: Bringing up level for play took: 0.017366
+[2020.04.12-20.29.40:440][855]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2020.04.12-20.29.40:455][855]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap 0.143
+[2020.04.12-20.29.40:456][855]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.12-20.29.40:456][855]LogEngine: Changing dynamic resolution state.
+[2020.04.12-20.29.40:620][855]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.12-20.31.36:329][962]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-20.31.36:344][962]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.12-20.31.36:364][962]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.12-20.31.36:364][962]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.12-20.31.36:380][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.12-20.31.36:380][962]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.12-20.31.36:418][962]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.12-20.31.36:421][962]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-20.31.36:421][962]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.12-20.31.36:423][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.12-20.31.36:428][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.12-20.31.36:429][962]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.12-20.31.36:435][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.12-20.31.36:471][962]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.12-20.31.36:487][962]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
+[2020.04.12-20.31.36:502][963]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2020.04.12-20.31.36:507][963]LogEngine: Changing dynamic resolution state.
+[2020.04.12-20.34.13:045][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.04.12-20.34.13:047][311]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.039
+[2020.04.12-20.34.13:047][311]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Curve_RadiusVsVelocity_Float] ([1] browsable assets)...
+[2020.04.12-20.34.13:047][311]OBJ SavePackage: Finished generating thumbnails for package [/Game/Curve_RadiusVsVelocity_Float]
+[2020.04.12-20.34.13:057][311]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Curve_RadiusVsVelocity_Float_Aut6AB71BDA40878F788F7994B244F2BC23.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Autosaves/Game/Curve_RadiusVsVelocity_Float_Auto9.uasset'
+[2020.04.12-20.34.13:059][311]LogFileHelpers: Auto-saving content packages took 0.012
+[2020.04.12-21.48.07:743][997]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.07:754][997]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.48.07:754][997]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.48.07:754][997]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.48.07:754][997]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.48.07:754][997]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.12-21.48.07:813][998]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.04.12-21.48.07:813][998]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.12-21.48.07:813][998]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.04.12-21.48.07:814][998]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.04.12-21.48.08:464][ 36]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.48.08:464][ 36]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.48.08:464][ 36]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.48.08:464][ 36]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.48.30:797][163]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.30:810][163]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.48.30:810][163]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.48.30:810][163]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.48.30:810][163]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.48.30:817][163]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.12-21.48.30:836][163]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.04.12-21.48.30:836][163]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.12-21.48.30:836][163]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.04.12-21.48.30:836][163]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.04.12-21.48.30:844][163]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.30:869][163]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.12-21.48.30:935][164]LogMaterial: Display: Missing cached shader map for material Material_12, compiling. 
+[2020.04.12-21.48.31:061][168]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 12
+[2020.04.12-21.48.31:148][173]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 11
+[2020.04.12-21.48.31:364][186]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 10
+[2020.04.12-21.48.31:414][189]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 9
+[2020.04.12-21.48.31:451][191]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 8
+[2020.04.12-21.48.31:451][191]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 7
+[2020.04.12-21.48.31:530][196]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 6
+[2020.04.12-21.48.31:568][198]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 5
+[2020.04.12-21.48.31:596][200]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 4
+[2020.04.12-21.48.31:596][200]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.04.12-21.48.31:631][202]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.04.12-21.48.31:657][203]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.48.31:657][203]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.48.31:657][203]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.48.31:657][203]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.48.31:657][203]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.48.32:109][230]LogEditorTransaction: Undo Material Editor: New Function Call
+[2020.04.12-21.48.32:114][230]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.32:127][230]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.48.32:127][230]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2020.04.12-21.48.32:127][230]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.04.12-21.48.32:128][230]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 1
+[2020.04.12-21.48.32:132][230]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.32:151][230]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.04.12-21.48.32:152][230]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.04.12-21.48.32:152][230]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.12-21.48.32:229][231]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 6
+[2020.04.12-21.48.32:229][231]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 5
+[2020.04.12-21.48.32:280][233]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 4
+[2020.04.12-21.48.32:358][234]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.48.32:361][235]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.04.12-21.48.32:414][235]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.48.32:672][246]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.48.32:672][246]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.48.32:672][246]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.48.32:672][246]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.48.38:151][573]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.38:169][573]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.48.38:169][573]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.48.38:169][573]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.48.38:169][573]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.48.38:173][573]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.38:195][573]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.04.12-21.48.38:195][573]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.12-21.48.38:195][573]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.04.12-21.48.38:195][573]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.04.12-21.48.38:195][573]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.12-21.48.38:256][574]LogMaterial: Display: Missing cached shader map for material Material_13, compiling. 
+[2020.04.12-21.48.38:350][576]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 8
+[2020.04.12-21.48.38:422][579]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 7
+[2020.04.12-21.48.38:446][580]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 6
+[2020.04.12-21.48.38:523][585]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 5
+[2020.04.12-21.48.38:673][594]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 4
+[2020.04.12-21.48.38:722][597]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.12-21.48.38:766][599]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 2
+[2020.04.12-21.48.38:767][599]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.48.38:767][599]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.48.38:767][599]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.48.38:767][599]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.48.38:793][601]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.04.12-21.48.39:850][664]LogEditorTransaction: Undo Material Editor: New Function Call
+[2020.04.12-21.48.39:855][664]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.39:865][664]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.48.39:865][664]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.48.39:865][664]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.48.39:866][664]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.48.39:870][664]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.39:883][664]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.12-21.48.39:897][664]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.04.12-21.48.39:897][664]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.04.12-21.48.39:897][664]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.04.12-21.48.39:897][664]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.04.12-21.48.40:037][669]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.04.12-21.48.40:099][670]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.04.12-21.48.40:135][671]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.48.40:163][672]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 1
+[2020.04.12-21.48.40:450][685]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.48.40:450][685]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.48.40:450][685]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.48.40:451][685]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.48.54:143][ 26]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.54:154][ 26]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.48.54:165][ 26]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.48.54:165][ 26]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.48.54:165][ 26]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.48.54:165][ 26]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.48.54:173][ 26]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.12-21.48.54:222][ 27]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.04.12-21.48.54:222][ 27]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.12-21.48.54:222][ 27]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.04.12-21.48.54:222][ 27]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.04.12-21.48.54:738][ 29]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.12-21.48.55:240][ 30]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.12-21.48.55:868][ 30]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.48.55:868][ 30]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.48.55:868][ 30]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.48.55:868][ 30]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.48.56:408][ 34]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.12-21.49.04:233][485]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.49.04:233][485]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.49.04:233][485]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.49.04:237][485]MaterialEditorStats: Error: [SM5] Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.49.06:125][598]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.49.06:126][598]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.49.06:126][598]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.49.55:900][582]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.49.55:901][582]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.49.55:901][582]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.49.55:910][582]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.12-21.49.55:922][582]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.49.55:922][582]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.49.55:922][582]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.49.55:922][582]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.49.55:922][582]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.49.55:923][582]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.49.55:923][582]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.51.01:979][813]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.51.01:980][813]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.51.01:980][813]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.51.03:700][908]LogMaterialEditor: Applying material M_BlinkerMaterial
+[2020.04.12-21.51.08:036][908]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2020.04.12-21.51.37:365][513]LogMaterialEditor: Saving and Compiling material M_BlinkerMaterial
+[2020.04.12-21.51.48:082][513]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2020.04.12-21.52.18:042][545]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.18:043][545]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.52.18:043][545]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.52.31:498][351]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.31:499][351]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.52.31:499][351]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.52.31:507][351]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.31:508][351]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.52.31:508][351]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.52.38:629][776]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.38:630][776]LogMaterial: Warning: /Engine/Transient.M_BlinkerMaterial (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.04.12-21.52.38:630][776]LogMaterial: Display: 	Function RadialGradientExponential: (Node If) If input A must be of type float.
+[2020.04.12-21.52.38:636][776]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.38:663][777]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.52.38:663][777]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.52.38:663][777]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.52.38:663][777]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.52.39:130][805]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.52.39:130][805]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.52.39:130][805]MaterialEditorStats: Texture samplers: 0/16
+[2020.04.12-21.52.39:130][805]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.52.40:726][900]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.40:764][901]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.52.40:764][901]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.52.40:764][901]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.52.40:764][901]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.52.41:098][921]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.52.41:098][921]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.52.41:098][921]MaterialEditorStats: Texture samplers: 0/16
+[2020.04.12-21.52.41:098][921]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.52.41:824][964]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2020.04.12-21.52.41:854][967]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.52.41:854][967]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.52.41:854][967]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.52.41:854][967]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.52.45:105][161]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.45:114][161]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.52.45:114][161]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.52.45:114][161]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.52.45:114][161]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.52.45:119][161]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2020.04.12-21.52.45:131][161]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.45:145][162]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 8
+[2020.04.12-21.52.45:145][162]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 7
+[2020.04.12-21.52.45:145][162]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 6
+[2020.04.12-21.52.45:145][162]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 5
+[2020.04.12-21.52.45:270][170]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 4
+[2020.04.12-21.52.45:381][176]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 3
+[2020.04.12-21.52.45:542][186]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 2
+[2020.04.12-21.52.45:676][193]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 1
+[2020.04.12-21.52.46:015][213]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.52.46:015][213]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.52.46:015][213]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.52.46:015][213]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.52.46:557][245]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.46:574][247]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.52.46:574][247]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.52.46:574][247]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.52.46:574][247]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.52.53:680][478]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.52.53:706][479]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.52.53:706][479]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.52.53:706][479]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.52.53:706][479]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.52.54:073][501]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.52.54:073][501]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.52.54:073][501]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.52.54:073][501]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.53.13:932][462]LogEditorTransaction: Undo Material Editor: Delete
+[2020.04.12-21.53.13:937][462]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.13:947][462]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.13:956][462]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.53.13:956][462]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.53.13:956][462]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.53.13:956][462]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.53.13:962][462]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_2, compiling. 
+[2020.04.12-21.53.14:014][463]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.04.12-21.53.14:014][463]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.12-21.53.14:014][463]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.04.12-21.53.14:014][463]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.04.12-21.53.14:514][483]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.53.14:514][483]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.53.14:514][483]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.53.14:514][483]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.53.19:659][791]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.19:691][792]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.53.19:691][792]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.53.19:691][792]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.53.19:691][792]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.53.20:113][817]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.53.20:113][817]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.53.20:113][817]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.53.20:113][817]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.53.24:923][104]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.24:934][104]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.24:971][105]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.53.24:972][105]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.53.24:972][105]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.53.24:972][105]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.53.25:323][126]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.53.25:323][126]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.53.25:323][126]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.53.25:323][126]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.53.34:029][648]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.34:040][648]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.34:054][649]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.53.34:054][649]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.53.34:054][649]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.53.34:054][649]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.53.34:421][671]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.53.34:421][671]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.53.34:421][671]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.53.34:422][671]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.53.34:744][690]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.34:757][691]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.53.34:757][691]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.53.34:757][691]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.53.34:757][691]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.53.35:124][713]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.53.35:124][713]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.53.35:124][713]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.53.35:124][713]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.53.35:546][738]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.35:558][738]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.35:570][739]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.53.35:570][739]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.53.35:570][739]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.53.35:570][739]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.53.35:920][760]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.53.35:920][760]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.53.35:920][760]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.53.35:920][760]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.53.37:176][835]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.53.37:192][837]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.53.37:192][837]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.53.37:192][837]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.53.37:192][837]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.53.37:579][859]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.53.37:579][859]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.53.37:579][859]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.53.37:579][859]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.53.59:579][179]LogMaterialEditor: Applying material M_BlinkerMaterial
+[2020.04.12-21.54.00:006][179]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.54.00:031][179]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.12-21.54.00:031][179]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.12-21.54.00:031][179]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.12-21.54.00:031][179]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.12-21.54.00:045][179]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.12-21.54.00:104][179]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.04.12-21.54.00:104][179]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.04.12-21.54.00:104][179]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.04.12-21.54.00:104][179]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.04.12-21.54.00:105][179]LogUObjectHash: Compacting FUObjectHashTables data took   5.87ms
+[2020.04.12-21.54.00:107][179]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.04.12-21.54.00:147][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2020.04.12-21.54.00:434][196]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.04.12-21.54.00:539][202]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.04.12-21.54.00:857][219]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.12-21.54.00:857][219]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.12-21.54.00:857][219]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.12-21.54.00:858][219]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.12-21.54.01:674][267]LogMaterialEditor: Saving and Compiling material M_BlinkerMaterial
+[2020.04.12-21.54.01:788][267]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_BlinkerMaterial" FILE="../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Content/M_BlinkerMaterial.uasset" SILENT=true
+[2020.04.12-21.54.01:829][267]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/M_BlinkerMaterial946300DC45A8D88796CAF2A7056891D2.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Content/M_BlinkerMaterial.uasset'
+[2020.04.12-21.54.01:845][267]AssetCheck: New page: Asset Save: M_BlinkerMaterial
+[2020.04.12-21.54.01:845][267]LogContentValidation: Display: Validating Material /Game/M_BlinkerMaterial.M_BlinkerMaterial
+[2020.04.13-00.13.46:332][599]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0051.dll
+[2020.04.13-00.13.47:349][603]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.13-00.13.47:452][603]LogUObjectHash: Compacting FUObjectHashTables data took   7.63ms
+[2020.04.13-00.13.47:496][603]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0013 seconds. Added 2 classes and 2 folders.
+[2020.04.13-00.13.47:502][603]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.13-00.13.47:636][603]LogUObjectHash: Compacting FUObjectHashTables data took   7.04ms
+[2020.04.13-00.13.47:667][603]LogContentBrowser: Native class hierarchy populated in 0.0122 seconds. Added 3019 classes and 722 folders.
+[2020.04.13-00.13.47:671][603]Display: HotReload took  0.3s.
+[2020.04.13-00.13.53:436][712]LogTemp: Repeating last play command: VR Preview
+[2020.04.13-00.13.53:459][712]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.13.53:459][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-00.13.53:459][712]PIE: New page: PIE session: MainMap (Apr 12, 2020, 10:13:53 AM)
+[2020.04.13-00.13.53:459][712]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.13-00.13.53:527][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067630s)
+[2020.04.13-00.13.53:529][712]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-00.13.53:529][712]LogPlayLevel: PIE: World Init took: (0.001788s)
+[2020.04.13-00.13.53:529][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.069788s)
+[2020.04.13-00.13.53:666][712]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2020.04.13-00.13.53:667][712]LogHMD: Initializing OVRPlugin session
+[2020.04.13-00.13.53:792][712]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.13-00.13.53:793][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-00.13.53:793][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-00.13.53:793][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-00.13.53:793][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-00.13.53:793][712]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-00.13.53:793][712]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-00.13.53:793][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-00.13.53:793][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-00.13.53:793][712]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-00.13.53:793][712]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.13.53:820][712]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.13.53:824][712]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.13.53:846][712]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.13-00.13.53:853][712]LogInit: FAudioDevice initialized.
+[2020.04.13-00.13.53:870][712]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.13.53:899][712]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.13-00.13.53:918][712]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-17.13.53
+[2020.04.13-00.13.53:919][712]LogWorld: Bringing up level for play took: 0.018628
+[2020.04.13-00.13.53:920][712]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.04.13-00.13.53:941][712]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap -0.372
+[2020.04.13-00.13.53:942][712]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.13.53:942][712]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.13.54:102][712]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.13-00.14.22:277][763]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.14.22:287][763]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.13-00.14.22:307][763]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.13-00.14.22:307][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.14.22:322][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.14.22:322][763]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.13-00.14.22:353][763]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-00.14.22:358][763]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.14.22:358][763]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-00.14.22:362][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.14.22:370][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-00.14.22:370][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.14.22:378][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.14.22:419][763]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.14.22:463][763]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.04.13-00.14.22:477][764]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.04.13-00.14.22:486][764]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.16.41:097][213]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0052.dll
+[2020.04.13-00.16.41:785][216]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.13-00.16.41:837][216]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.04.13-00.16.41:864][216]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.04.13-00.16.41:870][216]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.13-00.16.41:988][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2020.04.13-00.16.42:006][216]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3019 classes and 722 folders.
+[2020.04.13-00.16.42:010][216]Display: HotReload took  0.2s.
+[2020.04.13-00.16.45:389][298]LogTemp: Repeating last play command: VR Preview
+[2020.04.13-00.16.45:416][298]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.16.45:416][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-00.16.45:416][298]PIE: New page: PIE session: MainMap (Apr 12, 2020, 10:16:45 AM)
+[2020.04.13-00.16.45:416][298]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.13-00.16.45:479][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063217s)
+[2020.04.13-00.16.45:480][298]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-00.16.45:480][298]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2020.04.13-00.16.45:480][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.064316s)
+[2020.04.13-00.16.45:556][298]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2020.04.13-00.16.45:556][298]LogHMD: Initializing OVRPlugin session
+[2020.04.13-00.16.45:870][298]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.13-00.16.45:871][298]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-00.16.45:871][298]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-00.16.45:871][298]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-00.16.45:871][298]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-00.16.45:871][298]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-00.16.45:871][298]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-00.16.45:871][298]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-00.16.45:871][298]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-00.16.45:872][298]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-00.16.45:872][298]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.16.45:898][298]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.16.45:901][298]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.16.45:901][298]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.16.45:902][298]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.16.45:902][298]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.16.45:902][298]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.16.45:902][298]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.16.45:902][298]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.16.45:902][298]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.16.45:902][298]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.16.45:920][298]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.13-00.16.45:925][298]LogInit: FAudioDevice initialized.
+[2020.04.13-00.16.45:937][298]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.16.45:970][298]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.13-00.16.45:988][298]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-17.16.45
+[2020.04.13-00.16.45:989][298]LogWorld: Bringing up level for play took: 0.017921
+[2020.04.13-00.16.45:989][298]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.04.13-00.16.45:996][298]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap -0.316
+[2020.04.13-00.16.45:996][298]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.16.45:997][298]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.16.46:135][298]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.13-00.16.47:456][304]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.16.47:456][304]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.17.00:314][763]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.17.00:318][763]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.13-00.17.00:347][763]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.13-00.17.00:347][763]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.17.00:363][763]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.17.00:363][763]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.13-00.17.00:393][763]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-00.17.00:398][763]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.17.00:398][763]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-00.17.00:402][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.17.00:411][763]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-00.17.00:411][763]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.17.00:417][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.17.00:449][763]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.17.00:461][763]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2020.04.13-00.17.00:473][764]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.04.13-00.17.00:478][764]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.17.04:031][771]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.20.25:644][371]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0054.dll
+[2020.04.13-00.20.26:665][375]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.13-00.20.26:709][375]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.04.13-00.20.26:737][375]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.04.13-00.20.26:743][375]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.13-00.20.26:859][375]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2020.04.13-00.20.26:876][375]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3019 classes and 722 folders.
+[2020.04.13-00.20.26:880][375]Display: HotReload took  0.2s.
+[2020.04.13-00.24.35:693][116]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0055.dll
+[2020.04.13-00.24.36:710][120]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.13-00.24.36:806][120]LogUObjectHash: Compacting FUObjectHashTables data took   7.40ms
+[2020.04.13-00.24.36:846][120]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2020.04.13-00.24.36:854][120]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.13-00.24.36:993][120]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.04.13-00.24.37:010][120]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 3019 classes and 722 folders.
+[2020.04.13-00.24.37:014][120]Display: HotReload took  0.3s.
+[2020.04.13-00.24.40:187][190]LogTemp: Repeating last play command: VR Preview
+[2020.04.13-00.24.40:211][190]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.24.40:211][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-00.24.40:211][190]PIE: New page: PIE session: MainMap (Apr 12, 2020, 10:24:40 AM)
+[2020.04.13-00.24.40:211][190]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.13-00.24.40:264][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053078s)
+[2020.04.13-00.24.40:265][190]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-00.24.40:265][190]LogPlayLevel: PIE: World Init took: (0.000953s)
+[2020.04.13-00.24.40:265][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.054246s)
+[2020.04.13-00.24.40:346][190]LogUObjectHash: Compacting FUObjectHashTables data took   6.20ms
+[2020.04.13-00.24.40:346][190]LogHMD: Initializing OVRPlugin session
+[2020.04.13-00.24.40:455][190]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.13-00.24.40:456][190]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-00.24.40:456][190]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-00.24.40:456][190]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-00.24.40:456][190]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-00.24.40:456][190]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-00.24.40:456][190]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-00.24.40:456][190]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-00.24.40:456][190]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-00.24.40:456][190]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-00.24.40:456][190]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.24.40:483][190]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.24.40:486][190]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.24.40:509][190]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.13-00.24.40:511][190]LogInit: FAudioDevice initialized.
+[2020.04.13-00.24.40:532][190]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.24.40:567][190]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.13-00.24.40:586][190]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-17.24.40
+[2020.04.13-00.24.40:587][190]LogWorld: Bringing up level for play took: 0.018798
+[2020.04.13-00.24.40:587][190]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.04.13-00.24.40:595][190]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap 0.283
+[2020.04.13-00.24.40:595][190]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.24.40:595][190]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.24.40:660][190]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.13-00.24.41:212][193]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.24.42:817][196]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.24.55:094][633]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.24.55:107][633]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.13-00.24.55:127][633]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.13-00.24.55:127][633]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.24.55:142][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.24.55:142][633]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.13-00.24.55:175][633]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-00.24.55:181][633]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.24.55:181][633]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-00.24.55:185][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.24.55:192][633]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-00.24.55:192][633]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.24.55:198][633]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.24.55:233][633]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.24.55:251][633]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2020.04.13-00.24.55:263][634]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.04.13-00.24.55:268][634]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.26.23:019][ 66]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0056.dll
+[2020.04.13-00.26.23:703][ 69]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.13-00.26.23:754][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.04.13-00.26.23:795][ 69]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.04.13-00.26.23:803][ 69]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.13-00.26.23:924][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2020.04.13-00.26.23:939][ 69]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3019 classes and 722 folders.
+[2020.04.13-00.26.23:942][ 69]Display: HotReload took  0.2s.
+[2020.04.13-00.26.25:724][114]LogTemp: Repeating last play command: VR Preview
+[2020.04.13-00.26.25:743][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.26.25:743][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-00.26.25:743][114]PIE: New page: PIE session: MainMap (Apr 12, 2020, 10:26:25 AM)
+[2020.04.13-00.26.25:743][114]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.13-00.26.25:793][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049350s)
+[2020.04.13-00.26.25:793][114]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-00.26.25:793][114]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2020.04.13-00.26.25:794][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.050379s)
+[2020.04.13-00.26.25:861][114]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2020.04.13-00.26.25:862][114]LogHMD: Initializing OVRPlugin session
+[2020.04.13-00.26.25:967][114]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.13-00.26.25:968][114]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-00.26.25:968][114]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-00.26.25:968][114]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-00.26.25:968][114]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-00.26.25:968][114]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-00.26.25:968][114]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-00.26.25:968][114]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-00.26.25:968][114]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-00.26.25:969][114]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-00.26.25:969][114]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.26.25:993][114]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.26.25:995][114]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.26.25:995][114]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.26.25:995][114]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.26.25:995][114]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.26.25:996][114]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.26.25:996][114]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.26.25:996][114]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.26.25:996][114]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.26.25:996][114]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.26.26:011][114]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.13-00.26.26:013][114]LogInit: FAudioDevice initialized.
+[2020.04.13-00.26.26:029][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.26.26:062][114]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.13-00.26.26:075][114]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-17.26.26
+[2020.04.13-00.26.26:076][114]LogWorld: Bringing up level for play took: 0.012216
+[2020.04.13-00.26.26:076][114]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.04.13-00.26.26:081][114]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap -0.231
+[2020.04.13-00.26.26:082][114]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.26.26:082][114]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.26.26:172][114]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.13-00.26.41:503][696]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.26.41:517][696]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.13-00.26.41:547][696]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.13-00.26.41:547][696]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.26.41:564][696]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.26.41:565][696]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.13-00.26.41:596][696]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-00.26.41:601][696]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.26.41:601][696]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-00.26.41:605][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.26.41:613][696]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-00.26.41:613][696]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.26.41:620][696]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.26.41:658][696]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.26.41:683][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2020.04.13-00.26.41:699][697]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.04.13-00.26.41:705][697]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.26.42:237][700]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.26.42:739][700]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.31.23:350][241]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.23:379][242]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.31.23:379][242]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.31.23:379][242]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.31.23:379][242]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.31.23:891][272]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.31.23:891][272]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.31.23:891][272]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.31.23:891][272]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.31.26:967][456]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.26:978][456]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.26:991][457]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.31.26:991][457]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.31.26:991][457]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.31.26:991][457]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.31.27:358][479]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.31.27:358][479]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.31.27:358][479]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.31.27:358][479]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.31.28:281][534]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.28:292][534]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.28:311][536]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.31.28:311][536]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.31.28:311][536]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.31.28:311][536]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.31.28:673][557]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.31.28:673][557]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.31.28:673][557]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.31.28:673][557]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.31.30:200][648]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.30:224][648]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.31.30:224][648]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.31.30:224][648]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.31.30:224][648]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.31.31:470][723]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.31:483][724]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.31.31:483][724]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.31.31:484][724]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.31.31:484][724]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.31.31:857][746]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.31.31:857][746]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.31.31:857][746]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.31.31:857][746]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.31.37:487][ 55]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.31.38:641][123]LogMaterialEditor: Applying material M_BlinkerMaterial
+[2020.04.13-00.31.39:091][123]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.39:117][123]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.31.39:117][123]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.31.39:118][123]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.31.39:118][123]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.31.39:147][123]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.31.39:157][123]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.04.13-00.31.39:158][123]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.04.13-00.31.39:158][123]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.04.13-00.31.39:158][123]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.04.13-00.31.39:213][123]LogUObjectHash: Compacting FUObjectHashTables data took   5.70ms
+[2020.04.13-00.31.39:219][123]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.04.13-00.31.39:266][123]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2020.04.13-00.31.39:328][127]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.04.13-00.31.39:430][133]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.04.13-00.31.39:955][147]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.31.39:955][147]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.31.39:955][147]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.31.39:955][147]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.31.40:788][197]LogTemp: Repeating last play command: VR Preview
+[2020.04.13-00.31.40:803][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.31.40:804][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-00.31.40:804][197]PIE: New page: PIE session: MainMap (Apr 12, 2020, 10:31:40 AM)
+[2020.04.13-00.31.40:804][197]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.13-00.31.40:854][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050258s)
+[2020.04.13-00.31.40:855][197]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-00.31.40:855][197]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2020.04.13-00.31.40:856][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.051422s)
+[2020.04.13-00.31.40:892][197]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.04.13-00.31.40:892][197]LogHMD: Initializing OVRPlugin session
+[2020.04.13-00.31.40:994][197]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.13-00.31.40:995][197]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-00.31.40:995][197]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-00.31.40:995][197]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-00.31.40:995][197]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-00.31.40:995][197]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-00.31.40:995][197]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-00.31.40:995][197]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-00.31.40:995][197]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-00.31.40:996][197]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-00.31.40:996][197]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.31.41:021][197]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.31.41:024][197]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.31.41:041][197]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.13-00.31.41:043][197]LogInit: FAudioDevice initialized.
+[2020.04.13-00.31.41:061][197]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.31.41:090][197]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.13-00.31.41:102][197]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-17.31.41
+[2020.04.13-00.31.41:103][197]LogWorld: Bringing up level for play took: 0.012267
+[2020.04.13-00.31.41:103][197]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.04.13-00.31.41:110][197]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap 0.798
+[2020.04.13-00.31.41:111][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.31.41:111][197]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.31.41:231][197]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.13-00.31.55:796][756]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.31.55:807][756]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.13-00.31.55:827][756]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.13-00.31.55:827][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.31.55:844][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.31.55:844][756]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.13-00.31.55:875][756]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-00.31.55:879][756]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.31.55:880][756]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-00.31.55:882][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.31.55:891][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-00.31.55:892][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.31.55:897][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.31.55:934][756]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.31.55:947][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.04.13-00.31.55:966][757]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.04.13-00.31.55:969][757]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.31.59:490][780]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-00.32.06:867][207]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.32.06:901][208]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.32.06:901][208]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.32.06:901][208]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.32.06:901][208]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.32.08:427][299]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.32.08:442][300]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.32.08:442][300]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.32.08:442][300]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.32.08:442][300]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.32.08:826][323]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.32.08:826][323]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.32.08:826][323]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.32.08:826][323]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.32.35:671][933]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.32.35:679][933]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.32.35:679][933]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.32.35:679][933]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.32.35:679][933]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.32.35:684][933]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.13-00.32.35:715][935]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.04.13-00.32.35:715][935]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.13-00.32.35:715][935]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.04.13-00.32.35:715][935]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.04.13-00.32.36:430][977]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.32.36:430][977]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.32.36:430][977]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.32.36:430][977]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.32.38:821][120]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.32.38:835][120]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.32.38:835][120]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.32.38:835][120]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.32.38:835][120]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.32.38:835][120]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.13-00.32.38:878][123]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.04.13-00.32.38:878][123]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.13-00.32.38:878][123]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.04.13-00.32.38:878][123]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.04.13-00.32.39:409][154]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.32.39:409][154]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.32.39:410][154]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.32.39:410][154]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.32.41:014][250]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.32.41:026][250]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2020.04.13-00.32.41:033][250]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.32.41:033][250]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.32.41:033][250]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.32.41:033][250]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.32.41:059][252]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 4
+[2020.04.13-00.32.41:059][252]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 3
+[2020.04.13-00.32.41:059][252]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 2
+[2020.04.13-00.32.41:059][252]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 1
+[2020.04.13-00.32.41:638][286]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.32.41:638][286]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.32.41:638][286]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.32.41:638][286]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.32.42:604][344]LogMaterialEditor: Applying material M_BlinkerMaterial
+[2020.04.13-00.32.42:998][344]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.32.43:027][344]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-00.32.43:027][344]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-00.32.43:027][344]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-00.32.43:027][344]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-00.32.43:042][344]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-00.32.43:056][344]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.04.13-00.32.43:056][344]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.04.13-00.32.43:056][344]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.04.13-00.32.43:056][344]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.04.13-00.32.43:109][344]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2020.04.13-00.32.43:112][344]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.04.13-00.32.43:158][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.04.13-00.32.43:242][349]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.04.13-00.32.43:328][354]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.04.13-00.32.43:651][373]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-00.32.43:651][373]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-00.32.43:651][373]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-00.32.43:651][373]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-00.34.59:206][347]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0057.dll
+[2020.04.13-00.35.00:231][351]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.13-00.35.00:285][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2020.04.13-00.35.00:311][351]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.04.13-00.35.00:316][351]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.13-00.35.00:419][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.04.13-00.35.00:434][351]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 3019 classes and 722 folders.
+[2020.04.13-00.35.00:437][351]Display: HotReload took  0.2s.
+[2020.04.13-00.35.05:586][577]LogTemp: Repeating last play command: VR Preview
+[2020.04.13-00.35.05:610][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.35.05:610][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-00.35.05:610][577]PIE: New page: PIE session: MainMap (Apr 12, 2020, 10:35:05 AM)
+[2020.04.13-00.35.05:610][577]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.13-00.35.05:670][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059339s)
+[2020.04.13-00.35.05:670][577]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-00.35.05:671][577]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2020.04.13-00.35.05:671][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.060467s)
+[2020.04.13-00.35.05:739][577]LogUObjectHash: Compacting FUObjectHashTables data took   4.10ms
+[2020.04.13-00.35.05:739][577]LogHMD: Initializing OVRPlugin session
+[2020.04.13-00.35.05:847][577]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.13-00.35.05:848][577]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-00.35.05:848][577]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-00.35.05:848][577]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-00.35.05:848][577]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-00.35.05:848][577]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-00.35.05:848][577]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-00.35.05:848][577]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-00.35.05:848][577]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-00.35.05:849][577]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-00.35.05:849][577]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.35.05:880][577]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.35.05:883][577]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-00.35.05:883][577]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-00.35.05:883][577]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-00.35.05:883][577]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-00.35.05:883][577]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-00.35.05:883][577]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-00.35.05:884][577]LogAudioMixer: Display: Channel Order:
+[2020.04.13-00.35.05:884][577]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-00.35.05:884][577]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-00.35.05:901][577]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.13-00.35.05:903][577]LogInit: FAudioDevice initialized.
+[2020.04.13-00.35.05:926][577]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.35.05:951][577]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.13-00.35.05:965][577]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-17.35.05
+[2020.04.13-00.35.05:965][577]LogWorld: Bringing up level for play took: 0.013882
+[2020.04.13-00.35.05:966][577]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.04.13-00.35.05:971][577]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap -0.341
+[2020.04.13-00.35.05:972][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.35.05:972][577]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.35.06:071][577]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.13-00.35.19:954][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.35.19:957][ 95]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.13-00.35.19:977][ 95]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.13-00.35.19:977][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.35.19:994][ 95]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-00.35.19:994][ 95]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.13-00.35.20:028][ 95]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-00.35.20:031][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.35.20:032][ 95]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-00.35.20:034][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.35.20:041][ 95]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-00.35.20:041][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-00.35.20:047][ 95]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-00.35.20:077][ 95]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-00.35.20:092][ 95]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2020.04.13-00.35.20:104][ 96]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.04.13-00.35.20:110][ 96]LogEngine: Changing dynamic resolution state.
+[2020.04.13-00.36.08:187][232]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.04.13-00.36.08:187][232]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.034
+[2020.04.13-00.36.08:188][232]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_BlinkerMaterial] ([1] browsable assets)...
+[2020.04.13-00.36.08:211][232]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_BlinkerMaterial.M_BlinkerMaterial]
+[2020.04.13-00.36.08:211][232]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_BlinkerMaterial]
+[2020.04.13-00.36.08:252][232]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/M_BlinkerMaterial_Auto0EF98DFD3434FED685B3399932F1FC9FF.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Autosaves/Game/M_BlinkerMaterial_Auto0.uasset'
+[2020.04.13-00.36.08:253][232]LogFileHelpers: Auto-saving content packages took 0.066
+[2020.04.13-03.22.37:149][ 53]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.22.37:188][ 54]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-03.22.37:188][ 54]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-03.22.37:188][ 54]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-03.22.37:188][ 54]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-03.22.38:092][104]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-03.22.38:092][104]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-03.22.38:092][104]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-03.22.38:092][104]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-03.22.39:815][207]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.22.39:825][207]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.22.39:831][207]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-03.22.39:831][207]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-03.22.39:831][207]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-03.22.39:831][207]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-03.22.40:241][232]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-03.22.40:241][232]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-03.22.40:241][232]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-03.22.40:241][232]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-03.22.40:914][272]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.22.40:925][272]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.22.40:938][273]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-03.22.40:938][273]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-03.22.40:938][273]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-03.22.40:938][273]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-03.22.41:305][295]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-03.22.41:305][295]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-03.22.41:305][295]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-03.22.41:305][295]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-03.22.58:351][317]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.22.58:369][317]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-03.22.58:369][317]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-03.22.58:369][317]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-03.22.58:369][317]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-03.22.59:586][389]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.22.59:605][391]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-03.22.59:605][391]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-03.22.59:605][391]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-03.22.59:605][391]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-03.23.00:018][412]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-03.23.00:018][412]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-03.23.00:018][412]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-03.23.00:018][412]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-03.23.01:201][483]LogMaterialEditor: Applying material M_BlinkerMaterial
+[2020.04.13-03.23.03:393][483]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.23.03:420][483]LogShaderCompilers: Display: Worker (1/9): shaders left to compile 4
+[2020.04.13-03.23.03:420][483]LogShaderCompilers: Display: Worker (2/9): shaders left to compile 3
+[2020.04.13-03.23.03:420][483]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 2
+[2020.04.13-03.23.03:420][483]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 1
+[2020.04.13-03.23.03:442][483]LogMaterial: Display: Missing cached shader map for material M_BlinkerMaterial, compiling. 
+[2020.04.13-03.23.03:454][483]LogShaderCompilers: Display: Worker (5/9): shaders left to compile 6
+[2020.04.13-03.23.03:454][483]LogShaderCompilers: Display: Worker (6/9): shaders left to compile 5
+[2020.04.13-03.23.03:454][483]LogShaderCompilers: Display: Worker (7/9): shaders left to compile 4
+[2020.04.13-03.23.03:454][483]LogShaderCompilers: Display: Worker (8/9): shaders left to compile 3
+[2020.04.13-03.23.03:517][483]LogUObjectHash: Compacting FUObjectHashTables data took   6.33ms
+[2020.04.13-03.23.03:520][483]TextureStreamingBuild: Display: Compiling optional shaders took 0.000 seconds.
+[2020.04.13-03.23.03:593][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2020.04.13-03.23.03:685][485]LogShaderCompilers: Display: Worker (4/9): shaders left to compile 2
+[2020.04.13-03.23.03:774][487]LogShaderCompilers: Display: Worker (3/9): shaders left to compile 1
+[2020.04.13-03.23.04:602][507]MaterialEditorStats: Base pass shader without light map: 33 instructions
+[2020.04.13-03.23.04:602][507]MaterialEditorStats: Base pass vertex shader: 40 instructions
+[2020.04.13-03.23.04:602][507]MaterialEditorStats: Texture samplers: 1/16
+[2020.04.13-03.23.04:602][507]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2020.04.13-03.23.26:141][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.04.13-03.23.26:141][571]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/MainMap' took 0.034
+[2020.04.13-03.23.26:142][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/M_BlinkerMaterial] ([1] browsable assets)...
+[2020.04.13-03.23.26:200][571]OBJ SavePackage:     Rendered thumbnail for [Material /Game/M_BlinkerMaterial.M_BlinkerMaterial]
+[2020.04.13-03.23.26:200][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/M_BlinkerMaterial]
+[2020.04.13-03.23.26:242][571]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/M_BlinkerMaterial_Auto1EEB6445844B18D576BF407B082A70D70.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Autosaves/Game/M_BlinkerMaterial_Auto1.uasset'
+[2020.04.13-03.23.26:243][571]LogFileHelpers: Auto-saving content packages took 0.101
+[2020.04.13-03.29.52:651][584]LogTemp: Repeating last play command: VR Preview
+[2020.04.13-03.29.52:671][584]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-03.29.52:671][584]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-03.29.52:671][584]PIE: New page: PIE session: MainMap (Apr 12, 2020, 1:29:52 PM)
+[2020.04.13-03.29.52:672][584]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.13-03.29.52:830][584]LogPlayLevel: PIE: StaticDuplicateObject took: (0.158929s)
+[2020.04.13-03.29.52:831][584]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-03.29.52:831][584]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2020.04.13-03.29.52:832][584]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.160068s)
+[2020.04.13-03.29.52:863][584]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2020.04.13-03.29.52:864][584]LogHMD: Initializing OVRPlugin session
+[2020.04.13-03.29.53:447][584]LogHMD: HMD initialization failed
+[2020.04.13-03.29.53:447][584]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-03.29.53:447][584]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-03.29.53:447][584]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-03.29.53:447][584]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-03.29.53:447][584]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-03.29.53:447][584]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-03.29.53:447][584]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-03.29.53:447][584]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-03.29.53:448][584]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-03.29.53:448][584]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: Channel Order:
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-03.29.53:473][584]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: Channel Order:
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-03.29.53:476][584]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-03.29.53:491][584]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.13-03.29.53:493][584]LogInit: FAudioDevice initialized.
+[2020.04.13-03.29.53:503][584]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-03.29.53:504][584]LogHMD: Initializing OVRPlugin session
+[2020.04.13-03.29.54:043][584]LogHMD: HMD initialization failed
+[2020.04.13-03.29.54:056][584]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.13-03.29.54:071][584]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-20.29.54
+[2020.04.13-03.29.54:071][584]LogWorld: Bringing up level for play took: 0.015133
+[2020.04.13-03.29.54:072][584]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.04.13-03.29.54:078][584]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap 1.766
+[2020.04.13-03.29.54:079][584]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-03.30.14:140][634]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-03.30.14:152][634]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.13-03.30.14:172][634]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.13-03.30.14:172][634]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-03.30.14:173][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-03.30.14:173][634]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.13-03.30.14:209][634]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-03.30.14:212][634]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-03.30.14:212][634]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-03.30.14:216][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-03.30.14:225][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-03.30.14:225][634]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-03.30.14:232][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-03.30.14:271][634]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-03.30.14:285][634]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2020.04.13-03.30.14:298][635]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2020.04.13-03.30.30:510][606]LogTemp: Repeating last play command: VR Preview
+[2020.04.13-03.30.30:528][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-03.30.30:528][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.13-03.30.30:528][606]PIE: New page: PIE session: MainMap (Apr 12, 2020, 1:30:30 PM)
+[2020.04.13-03.30.30:528][606]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.13-03.30.30:580][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051824s)
+[2020.04.13-03.30.30:581][606]LogAIModule: Creating AISystem for world MainMap
+[2020.04.13-03.30.30:581][606]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2020.04.13-03.30.30:581][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.052934s)
+[2020.04.13-03.30.30:618][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.04.13-03.30.30:619][606]LogHMD: Initializing OVRPlugin session
+[2020.04.13-03.30.30:733][606]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.13-03.30.30:743][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.13-03.30.30:743][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.13-03.30.30:743][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.13-03.30.30:743][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.13-03.30.30:743][606]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.13-03.30.30:743][606]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.13-03.30.30:743][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.13-03.30.30:743][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.13-03.30.30:744][606]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.13-03.30.30:744][606]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: Channel Order:
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-03.30.30:768][606]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: Channel Order:
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-03.30.30:771][606]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-03.30.30:786][606]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.13-03.30.30:788][606]LogInit: FAudioDevice initialized.
+[2020.04.13-03.30.30:797][606]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-03.30.30:826][606]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.13-03.30.30:841][606]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.12-20.30.30
+[2020.04.13-03.30.30:841][606]LogWorld: Bringing up level for play took: 0.014062
+[2020.04.13-03.30.30:841][606]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2020.04.13-03.30.30:848][606]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap 0.536
+[2020.04.13-03.30.30:848][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-03.30.30:849][606]LogEngine: Changing dynamic resolution state.
+[2020.04.13-03.30.30:938][606]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.13-03.30.32:821][612]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-03.30.32:821][612]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-03.30.41:225][912]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-03.30.41:242][912]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.13-03.30.41:262][912]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.13-03.30.41:263][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-03.30.41:276][912]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.13-03.30.41:277][912]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.13-03.30.41:313][912]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.13-03.30.41:319][912]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-03.30.41:320][912]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.13-03.30.41:322][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-03.30.41:331][912]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.13-03.30.41:331][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.13-03.30.41:337][912]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.13-03.30.41:370][912]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.13-03.30.41:384][912]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.04.13-03.30.41:395][913]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2020.04.13-03.30.41:400][913]LogEngine: Changing dynamic resolution state.
+[2020.04.13-04.13.00:774][503]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{88cc2980-e914-4d73-ba2b-22fd1b56f0c8}.
+[2020.04.13-04.13.00:774][503]LogTemp: Resetting audio stream to device id 
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BT989 Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: Name: Headset (BT989 Hands-Free AG Audio)
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: Sample Rate: 16000
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: Device Channel Count: 1
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: Channel Order:
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-04.13.01:149][503]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-04.13.01:841][504]LogTemp: Resetting audio stream to device id 
+[2020.04.13-04.13.01:925][504]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BT989 Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2020.04.13-04.13.01:925][504]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-04.13.01:925][504]LogAudioMixer: Display: Name: Headset (BT989 Hands-Free AG Audio)
+[2020.04.13-04.13.01:925][504]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-04.13.01:926][504]LogAudioMixer: Display: Sample Rate: 16000
+[2020.04.13-04.13.01:926][504]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-04.13.01:926][504]LogAudioMixer: Display: Device Channel Count: 1
+[2020.04.13-04.13.01:926][504]LogAudioMixer: Display: Channel Order:
+[2020.04.13-04.13.01:926][504]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-04.13.01:926][504]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-04.13.46:567][637]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{88cc2980-e914-4d73-ba2b-22fd1b56f0c8}.
+[2020.04.13-04.13.46:567][637]LogTemp: Resetting audio stream to device id 
+[2020.04.13-04.13.46:671][637]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-04.13.46:671][637]LogAudioMixer: Display: Name: Headphones (BT989 Stereo)
+[2020.04.13-04.13.46:672][637]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-04.13.46:672][637]LogAudioMixer: Display: Sample Rate: 44100
+[2020.04.13-04.13.46:672][637]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-04.13.46:672][637]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-04.13.46:672][637]LogAudioMixer: Display: Channel Order:
+[2020.04.13-04.13.46:672][637]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-04.13.46:672][637]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-04.14.33:334][776]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9d84c4b2-d84e-4a37-9987-f9587e390a8c}.
+[2020.04.13-04.14.33:334][776]LogTemp: Resetting audio stream to device id 
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BT989 Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: Name: Headset (BT989 Hands-Free AG Audio)
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: Sample Rate: 16000
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: Device Channel Count: 1
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: Channel Order:
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-04.14.33:466][776]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-04.14.38:392][791]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{88cc2980-e914-4d73-ba2b-22fd1b56f0c8}.
+[2020.04.13-04.14.38:392][791]LogTemp: Resetting audio stream to device id 
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: Name: Headphones (BT989 Stereo)
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: Sample Rate: 44100
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: Channel Order:
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-04.14.38:436][791]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-04.14.45:797][813]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9d84c4b2-d84e-4a37-9987-f9587e390a8c}.
+[2020.04.13-04.14.45:798][813]LogTemp: Resetting audio stream to device id 
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BT989 Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: Name: Headset (BT989 Hands-Free AG Audio)
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: Sample Rate: 16000
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: Device Channel Count: 1
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: Channel Order:
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-04.14.45:917][813]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-04.15.13:368][895]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{88cc2980-e914-4d73-ba2b-22fd1b56f0c8}.
+[2020.04.13-04.15.13:368][895]LogTemp: Resetting audio stream to device id 
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: Name: Headphones (BT989 Stereo)
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: Sample Rate: 44100
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: Channel Order:
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-04.15.13:460][895]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-05.46.14:422][128]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{9d84c4b2-d84e-4a37-9987-f9587e390a8c}.
+[2020.04.13-05.46.14:422][128]LogTemp: Resetting audio stream to device id 
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Warning: Did not find the channel type flags for audio device 'Headset (BT989 Hands-Free AG Audio)'. Reverting to a default channel ordering.
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: Name: Headset (BT989 Hands-Free AG Audio)
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: Sample Rate: 16000
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: Device Channel Count: 1
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: Channel Order:
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-05.46.14:508][128]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-05.47.07:794][288]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{47aa945c-2160-4d25-8565-0d80c297bfa5}.
+[2020.04.13-05.47.07:794][288]LogTemp: Resetting audio stream to device id 
+[2020.04.13-05.47.07:889][288]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.13-05.47.07:889][288]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.13-05.47.07:890][288]LogAudioMixer: Display: Is Default: Yes
+[2020.04.13-05.47.07:890][288]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.13-05.47.07:890][288]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.13-05.47.07:890][288]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.13-05.47.07:890][288]LogAudioMixer: Display: Channel Order:
+[2020.04.13-05.47.07:890][288]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.13-05.47.07:890][288]LogAudioMixer: Display: 1: FrontRight
+[2020.04.13-05.52.03:923][176]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{47aa945c-2160-4d25-8565-0d80c297bfa5}.
+[2020.04.13-05.52.03:923][176]LogTemp: Resetting audio stream to device id 
+[2020.04.13-05.52.04:700][176]LogAudioMixer: Error: Audio Platform Device Error: 0x0: UNKNOWN (File D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/AudioMixerXAudio2/Private/AudioMixerPlatformXAudio2.cpp, Line 374)
+[2020.04.13-05.52.05:074][178]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{47aa945c-2160-4d25-8565-0d80c297bfa5}.
+[2020.04.13-05.52.05:074][178]LogTemp: Resetting audio stream to device id 
+[2020.04.13-05.52.05:502][178]LogAudioMixer: Error: Audio Platform Device Error: 0x0: UNKNOWN (File D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/AudioMixerXAudio2/Private/AudioMixerPlatformXAudio2.cpp, Line 374)
+[2020.04.13-20.31.55:204][396]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-20.31.55:711][397]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)

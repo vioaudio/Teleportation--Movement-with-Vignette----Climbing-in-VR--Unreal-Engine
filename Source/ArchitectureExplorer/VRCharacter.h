@@ -28,11 +28,13 @@ public:
 
 private: 
 	void BeginTeleport();
+	FVector2D GetBlinkersCenter();
 	bool FindTeleportDestination(FVector &OutLocation);
 	void FinishTeleport();
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
 	void StartCameraFade(float FromAlpha, float ToAlpha);
+	void UpdateBlinkers();
 	void UpdateDestinationMarker();
 
 
@@ -55,6 +57,8 @@ private:
 	float TeleportFadeTime = 1.f;
 	UPROPERTY(EditAnywhere)
 	FVector TeleportProjectionExtent = FVector(100, 100, 100);
+	UPROPERTY(EditAnywhere)
+	class UCurveFloat* RadiusVsVelocity;
 	UPROPERTY(EditAnywhere)
 	class UMaterialInterface* BlinkerMaterialBase;
 
