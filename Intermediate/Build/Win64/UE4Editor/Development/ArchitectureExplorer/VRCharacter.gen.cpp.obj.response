@@ -230,6 +230,8 @@
 /I Runtime\AudioMixerCore\Public
 /I C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Inc\ArchitectureExplorer
 /I C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Source
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf

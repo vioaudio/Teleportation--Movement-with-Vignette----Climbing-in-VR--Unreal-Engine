@@ -1,12 +1,21 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer).
+  Invalidating makefile for ArchitectureExplorerEditor (ArchitectureExplorer.Build.cs modified)
+  Parsing headers for ArchitectureExplorerEditor
+    Running UnrealHeaderTool "C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\ArchitectureExplorer.uproject" "C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\ArchitectureExplorerEditor\Development\ArchitectureExplorerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ArchitectureExplorerEditor in 19.9034863 seconds
   Building ArchitectureExplorerEditor...
   Using Visual Studio 2017 14.16.27034 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] VRCharacter.cpp
-    [2/4] UE4Editor-ArchitectureExplorer-0057.lib
-       Creating library C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0057.lib and object C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0057.exp
-    [3/4] UE4Editor-ArchitectureExplorer-0057.dll
-       Creating library C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0057.suppressed.lib and object C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0057.suppressed.exp
-    [4/4] ArchitectureExplorerEditor.target
-  Total time in Parallel executor: 1.96 seconds
-  Total execution time: 2.60 seconds
+  Building 9 actions with 12 processes...
+    [1/9] ArchitectureExplorer.cpp
+    [2/9] ArchitectureExplorer.init.gen.cpp
+    [3/9] ArchitectureExplorerGameModeBase.cpp
+    [4/9] ArchitectureExplorerGameModeBase.gen.cpp
+    [5/9] VRCharacter.gen.cpp
+    [6/9] VRCharacter.cpp
+    [7/9] UE4Editor-ArchitectureExplorer-0058.lib
+       Creating library C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0058.lib and object C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0058.exp
+    [8/9] UE4Editor-ArchitectureExplorer-0058.dll
+       Creating library C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0058.suppressed.lib and object C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0058.suppressed.exp
+    [9/9] ArchitectureExplorerEditor.target
+  Total time in Parallel executor: 5.95 seconds
+  Total execution time: 29.59 seconds

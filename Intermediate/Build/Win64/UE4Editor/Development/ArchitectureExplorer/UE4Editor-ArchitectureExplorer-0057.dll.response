@@ -68,6 +68,7 @@
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\InputCore\UE4Editor-InputCore.lib"
+"C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\HeadMountedDisplay\UE4Editor-HeadMountedDisplay.lib"
 /OUT:"C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Binaries\Win64\UE4Editor-ArchitectureExplorer-0057.dll"
 /IMPLIB:"C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Intermediate\Build\Win64\UE4Editor\Development\ArchitectureExplorer\UE4Editor-ArchitectureExplorer-0057.suppressed.lib"
 /PDB:"C:\Users\jaqso\Documents\Unreal\Projects\ArchitectureExplorer\Binaries\Win64\UE4Editor-ArchitectureExplorer-0057.pdb"

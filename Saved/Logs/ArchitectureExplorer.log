@@ -4288,3 +4288,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.13-05.52.05:502][178]LogAudioMixer: Error: Audio Platform Device Error: 0x0: UNKNOWN (File D:/Build/++UE4/Sync/Engine/Source/Runtime/Windows/AudioMixerXAudio2/Private/AudioMixerPlatformXAudio2.cpp, Line 374)
 [2020.04.13-20.31.55:204][396]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
 [2020.04.13-20.31.55:711][397]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.13-22.58.18:270][473]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0058.dll
+[2020.04.13-22.58.19:210][477]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.13-22.58.19:610][477]LogUObjectHash: Compacting FUObjectHashTables data took  20.62ms
+[2020.04.13-22.58.19:795][477]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0141 seconds. Added 2 classes and 2 folders.
+[2020.04.13-22.58.19:801][477]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.13-22.58.20:023][477]LogUObjectHash: Compacting FUObjectHashTables data took  10.11ms
+[2020.04.13-22.58.20:242][477]LogContentBrowser: Native class hierarchy populated in 0.0594 seconds. Added 3019 classes and 722 folders.
+[2020.04.13-22.58.20:255][477]Display: HotReload took  1.0s.
