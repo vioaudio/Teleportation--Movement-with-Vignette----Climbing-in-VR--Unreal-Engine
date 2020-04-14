@@ -43,6 +43,10 @@ private:
 	class UCameraComponent* Camera;
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
+	UPROPERTY(VisibleAnywhere)
+	class UMotionControllerComponent* LeftController;
+	UPROPERTY(VisibleAnywhere)
+	class UMotionControllerComponent* RightController;
 	UPROPERTY()
 	class UPostProcessComponent* PostProcessComponent;
 	UPROPERTY(VisibleAnywhere)

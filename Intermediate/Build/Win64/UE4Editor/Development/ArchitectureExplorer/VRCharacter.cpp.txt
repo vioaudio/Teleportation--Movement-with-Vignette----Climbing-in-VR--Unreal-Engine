@@ -15,3 +15,11 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_PostProcessVolume.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Interface_PostProcessVolume.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PostProcessComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\HeadMountedDisplay\Public\MotionControllerComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneViewExtension.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\headmounteddisplay\public\IMotionController.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\headmounteddisplay\public\LateUpdateManager.h
+c:\program files\epic games\ue_4.24\engine\source\runtime\headmounteddisplay\public\IIdentifiableXRDevice.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\MotionControllerComponent.generated.h

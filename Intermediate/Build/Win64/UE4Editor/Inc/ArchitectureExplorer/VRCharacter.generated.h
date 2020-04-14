@@ -61,6 +61,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 #define ArchitectureExplorer_Source_ArchitectureExplorer_VRCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AVRCharacter, Camera); } \
 	FORCEINLINE static uint32 __PPO__BlinkerMaterialInstance() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialInstance); } \
+	FORCEINLINE static uint32 __PPO__LeftController() { return STRUCT_OFFSET(AVRCharacter, LeftController); } \
+	FORCEINLINE static uint32 __PPO__RightController() { return STRUCT_OFFSET(AVRCharacter, RightController); } \
 	FORCEINLINE static uint32 __PPO__PostProcessComponent() { return STRUCT_OFFSET(AVRCharacter, PostProcessComponent); } \
 	FORCEINLINE static uint32 __PPO__VRRoot() { return STRUCT_OFFSET(AVRCharacter, VRRoot); } \
 	FORCEINLINE static uint32 __PPO__DestinationMarker() { return STRUCT_OFFSET(AVRCharacter, DestinationMarker); } \

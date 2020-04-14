@@ -9,8 +9,10 @@
 #include "Components/SceneComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Curves/CurveFloat.h"
+#include "DrawDebugHelpers.h"
 #include "GameFramework/Actor.h"
 #include "Materials/MaterialInstanceDynamic.h"
+#include "MotionControllerComponent.h"
 #include "TimerManager.h"
 
 
@@ -20,20 +22,26 @@ AVRCharacter::AVRCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	
+
 	VRRoot = CreateDefaultSubobject<USceneComponent>(TEXT("VR Root"));
 	VRRoot->SetupAttachment(GetRootComponent());
-
+	
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(VRRoot);
 
 	DestinationMarker = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Destination Marker"));
 	DestinationMarker->SetupAttachment(GetRootComponent());
 
+	LeftController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Left Controller"));
+	LeftController->SetupAttachment(VRRoot);
+	LeftController->SetTrackingSource(EControllerHand::Left);
+
+	RightController = CreateDefaultSubobject<UMotionControllerComponent>(TEXT("Right Controller"));
+	RightController->SetupAttachment(VRRoot);
+	RightController->SetTrackingSource(EControllerHand::Right);
+
 	PostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("Post Process Component"));
 	PostProcessComponent->SetupAttachment(GetRootComponent());
-
-
 }
 
 // Called when the game starts or when spawned
@@ -88,7 +96,30 @@ void AVRCharacter::BeginTeleport()
 	GetWorldTimerManager().SetTimer(Handle, this, &AVRCharacter::FinishTeleport, TeleportFadeTime);
 }
 
-FVector2D AVRCharacter::GetBlinkersCenter()
+bool AVRCharacter::FindTeleportDestination(FVector & OutLocation)
+{
+	FVector Start = RightController->GetComponentLocation() + FVector(0, 10 ,0);
+	FVector End = Start + RightController->GetForwardVector() * MaxTeleportDistance;
+	//DrawDebugLine(GetWorld(), Start, End, FColor(0, 255, 0), false, 0.f, 0, 2.f);
+
+	FHitResult HitResult;
+	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility); //Line Trace
+
+	if (!bHit) return false;
+	OutLocation = HitResult.Location;
+	return bHit;
+}
+
+void AVRCharacter::FinishTeleport()
+{
+	//Move Player to Desitnation
+	FVector CapsuleCenter = FVector(0, 0, GetCapsuleComponent()->GetScaledCapsuleHalfHeight());
+	SetActorLocation(DestinationMarker->GetComponentLocation() + CapsuleCenter);
+	//Fade in the viewport 
+	StartCameraFade(1, 0);
+}
+
+FVector2D AVRCharacter::GetBlinkersCenter() //Currently Call is Commented Out
 {
 	FVector MovementDirection = GetVelocity().GetSafeNormal(); 
 	if (MovementDirection.IsNearlyZero())
@@ -126,26 +157,6 @@ FVector2D AVRCharacter::GetBlinkersCenter()
 	ScreenStationaryLocation.Y /= SizeY;
 	return FVector2D(0.5, 0.5f); //return ScreenStationaryLocation;
 	
-}
-
-bool AVRCharacter::FindTeleportDestination(FVector & OutLocation)
-{
-	FVector Start = Camera->GetComponentLocation();
-	FVector End = Start + Camera->GetForwardVector() * MaxTeleportDistance;
-	FHitResult HitResult;
-	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility); //Line Trace
-	if (!bHit) return false;
-	OutLocation = HitResult.Location;
-	return bHit;
-}
-
-void AVRCharacter::FinishTeleport()
-{
-	//Move Player to Desitnation
-	FVector CapsuleCenter = FVector(0, 0, GetCapsuleComponent()->GetScaledCapsuleHalfHeight());
-	SetActorLocation(DestinationMarker->GetComponentLocation() + CapsuleCenter);
-	//Fade in the viewport 
-	StartCameraFade(1, 0);
 }
 
 void AVRCharacter::MoveForward(float throttle)
@@ -192,6 +203,8 @@ void AVRCharacter::UpdateDestinationMarker()
 	{
 		DestinationMarker->SetWorldLocation(Location);
 		DestinationMarker->SetVisibility(true);
+		UE_LOG(LogTemp, Error, TEXT("Location is %s"), *Location.ToString());
+
 	}
 	else
 		DestinationMarker->SetVisibility(false); //Hide Marker if Invalid Location
