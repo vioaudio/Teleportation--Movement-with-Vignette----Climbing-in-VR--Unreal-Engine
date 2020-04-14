@@ -8,6 +8,7 @@
 #include "Components/PostProcessComponent.h"
 #include "Components/SceneComponent.h"
 #include "Components/SplineComponent.h"
+#include "Components/SplineMeshComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Curves/CurveFloat.h"
 #include "DrawDebugHelpers.h"
@@ -105,21 +106,33 @@ void AVRCharacter::DrawTeleportPath(const TArray<FVector>& Path)
 {
 	UpdateSpline(Path);
 
-	for (int32 i = 0; i < Path.Num(); i++)
+	int32 SegmentNum = Path.Num() - 1; //-1 because there is always one less segment than there are points
+
+	for (USplineMeshComponent* SplineMesh : TeleportPathMeshPool)
+	{
+		SplineMesh->SetVisibility(false); //Makes Everything Invisible so that eventually only meshes that are used are seen
+	}
+
+	for (int32 i = 0; i < SegmentNum; i++)
 	{
 		if (TeleportPathMeshPool.Num() <= i)//True If there are more points that have not yet been added to the Object Pool
 		{
-			UStaticMeshComponent* DynamicMesh = NewObject<UStaticMeshComponent>(this); //creates new static mesh at runtime
-			DynamicMesh->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform); // Places Object at 0,0,0 relative to parent
-			DynamicMesh->SetStaticMesh(TeleportArchMesh); //Sets Mesh during Runtime
-			DynamicMesh->SetMaterial(0, TeleportArchMaterial); //Sets Material during Runtime to material at index (0)
-			DynamicMesh->RegisterComponent();
-			TeleportPathMeshPool.Add(DynamicMesh); //Adds it to an Object Pool
+			USplineMeshComponent* SplineMesh = NewObject<USplineMeshComponent>(this); //creates new static mesh at runtime
+			SplineMesh->SetMobility(EComponentMobility::Movable);
+			SplineMesh->AttachToComponent(TeleportPath, FAttachmentTransformRules::KeepRelativeTransform); // Places Object at 0,0,0 relative to parent
+			SplineMesh->SetStaticMesh(TeleportArchMesh); //Sets Mesh during Runtime
+			SplineMesh->SetMaterial(0, TeleportArchMaterial); //Sets Material during Runtime to material at index (0)
+			SplineMesh->RegisterComponent();
+			TeleportPathMeshPool.Add(SplineMesh); //Adds it to an Object Pool
 		}
-		UStaticMeshComponent* DynamicMesh = TeleportPathMeshPool[i]; //Gets the current mesh at this index
-		DynamicMesh->SetWorldLocation(Path[i]); //Sets location to index of the point being referred to in the for loop
+
+		USplineMeshComponent* SplineMesh = TeleportPathMeshPool[i]; //Gets the current mesh at this index
+		SplineMesh->SetVisibility(true); //Makes Visible when it is used
+		FVector StartPos, StartTangent, EndPos, EndTangent;
+		TeleportPath->GetLocalLocationAndTangentAtSplinePoint(i, StartPos, StartTangent); //Populates Start Pos & Start Tangent
+		TeleportPath->GetLocalLocationAndTangentAtSplinePoint(i + 1, EndPos, EndTangent); //Populates End Pos & End Tangent
+		SplineMesh->SetStartAndEnd(StartPos, StartTangent, EndPos, EndTangent); //Sets paramaeters of spline
 	}
-	
 }
 
 bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation)
@@ -135,7 +148,7 @@ bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &Ou
 		ECC_Visibility,
 		this
 	);
-	Params.DrawDebugType = EDrawDebugTrace::ForOneFrame;
+	//Params.DrawDebugType = EDrawDebugTrace::ForOneFrame; //Draws a Debug of Arch
 	Params.bTraceComplex = true; //Enables it to hit more things in scene
 
 	FPredictProjectilePathResult Result;
@@ -271,5 +284,10 @@ void AVRCharacter::UpdateDestinationMarker()
 		DrawTeleportPath(Path);
 	}
 	else
+	{
 		DestinationMarker->SetVisibility(false); //Hide Marker if Invalid Location
+		TArray<FVector>EmptyPath;
+		DrawTeleportPath(EmptyPath); //Gives an Empty Array, For Loop Never Runs
+	}
+
 }

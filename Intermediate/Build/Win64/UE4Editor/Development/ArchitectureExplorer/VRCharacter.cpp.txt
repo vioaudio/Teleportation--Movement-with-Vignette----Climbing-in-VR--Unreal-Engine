@@ -17,6 +17,8 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PostProcessComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SplineComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SplineComponent.generated.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SplineMeshComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SplineMeshComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h

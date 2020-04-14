@@ -27,6 +27,7 @@ void EmptyLinkFunctionForGeneratedCodeVRCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UPostProcessComponent_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInstanceDynamic_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USplineMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 // End Cross Module References
 	void AVRCharacter::StaticRegisterNativesAVRCharacter()
@@ -268,7 +269,7 @@ void EmptyLinkFunctionForGeneratedCodeVRCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportPathMeshPool = { "TeleportPathMeshPool", nullptr, (EPropertyFlags)0x0040008000000008, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AVRCharacter, TeleportPathMeshPool), METADATA_PARAMS(Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportPathMeshPool_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportPathMeshPool_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportPathMeshPool_Inner = { "TeleportPathMeshPool", nullptr, (EPropertyFlags)0x0000000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AVRCharacter_Statics::NewProp_TeleportPathMeshPool_Inner = { "TeleportPathMeshPool", nullptr, (EPropertyFlags)0x0000000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_USplineMeshComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AVRCharacter_Statics::NewProp_Camera_MetaData[] = {
 		{ "Category", "VRCharacter" },
@@ -326,7 +327,7 @@ void EmptyLinkFunctionForGeneratedCodeVRCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AVRCharacter, 2387749682);
+	IMPLEMENT_CLASS(AVRCharacter, 600696908);
 	template<> ARCHITECTUREEXPLORER_API UClass* StaticClass<AVRCharacter>()
 	{
 		return AVRCharacter::StaticClass();

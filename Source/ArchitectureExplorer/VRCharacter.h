@@ -44,7 +44,7 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* Camera;
 	UPROPERTY()
-	TArray<class UStaticMeshComponent*> TeleportPathMeshPool;
+	TArray<class USplineMeshComponent*> TeleportPathMeshPool;
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
 	UPROPERTY(VisibleAnywhere)
