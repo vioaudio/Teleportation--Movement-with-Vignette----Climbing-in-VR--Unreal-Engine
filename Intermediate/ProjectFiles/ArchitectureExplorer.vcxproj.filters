@@ -50,4 +50,14 @@
       <Filter>Source\ArchitectureExplorer</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\ArchitectureExplorer\HandController.h">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\ArchitectureExplorer\HandController.cpp">
+      <Filter>Source\ArchitectureExplorer</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

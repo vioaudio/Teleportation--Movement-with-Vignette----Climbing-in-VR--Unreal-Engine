@@ -74,6 +74,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 	FORCEINLINE static uint32 __PPO__TeleportProjectileSpeed() { return STRUCT_OFFSET(AVRCharacter, TeleportProjectileSpeed); } \
 	FORCEINLINE static uint32 __PPO__TeleportSimulationTime() { return STRUCT_OFFSET(AVRCharacter, TeleportSimulationTime); } \
 	FORCEINLINE static uint32 __PPO__TeleportProjectionExtent() { return STRUCT_OFFSET(AVRCharacter, TeleportProjectionExtent); } \
+	FORCEINLINE static uint32 __PPO__HandControllerClass() { return STRUCT_OFFSET(AVRCharacter, HandControllerClass); } \
 	FORCEINLINE static uint32 __PPO__RadiusVsVelocity() { return STRUCT_OFFSET(AVRCharacter, RadiusVsVelocity); } \
 	FORCEINLINE static uint32 __PPO__BlinkerMaterialBase() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialBase); } \
 	FORCEINLINE static uint32 __PPO__TeleportArchMaterial() { return STRUCT_OFFSET(AVRCharacter, TeleportArchMaterial); } \

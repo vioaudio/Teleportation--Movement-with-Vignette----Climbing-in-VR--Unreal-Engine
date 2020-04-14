@@ -48,9 +48,9 @@ private:
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
 	UPROPERTY(VisibleAnywhere)
-	class UMotionControllerComponent* LeftController;
+	class AHandController* LeftController;
 	UPROPERTY(VisibleAnywhere)
-	class UMotionControllerComponent* RightController;
+	class AHandController* RightController;
 	UPROPERTY()
 	class UPostProcessComponent* PostProcessComponent;
 	UPROPERTY(VisibleAnywhere)
@@ -60,7 +60,7 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	class UStaticMeshComponent* DestinationMarker;
 
-private:
+private: //Configuration Parameters
 	UPROPERTY(EditAnywhere)
 	float MaxTeleportDistance = 1000.f;
 	UPROPERTY(EditAnywhere)
@@ -73,6 +73,8 @@ private:
 	float TeleportSimulationTime = 1; //Distance of Parabola
 	UPROPERTY(EditAnywhere)
 	FVector TeleportProjectionExtent = FVector(100, 100, 100);
+	UPROPERTY(EditDefaultsOnly)
+	TSubclassOf<AHandController> HandControllerClass;
 	UPROPERTY(EditAnywhere)
 	class UCurveFloat* RadiusVsVelocity;
 	UPROPERTY(EditAnywhere)
