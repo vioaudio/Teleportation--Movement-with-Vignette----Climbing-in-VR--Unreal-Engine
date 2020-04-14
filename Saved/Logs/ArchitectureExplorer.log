@@ -12739,3 +12739,23 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.14-06.39.35:916][599]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
 [2020.04.14-06.39.35:932][599]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3019 classes and 722 folders.
 [2020.04.14-06.39.35:935][599]Display: HotReload took  0.3s.
+[2020.04.14-17.43.12:221][896]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0093.dll
+[2020.04.14-17.43.13:471][901]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.14-17.43.13:844][901]LogUObjectHash: Compacting FUObjectHashTables data took  15.92ms
+[2020.04.14-17.43.13:913][901]LogClass: Could not find existing class VRCharacter in package /Script/ArchitectureExplorer for HotReload, assuming new class
+[2020.04.14-17.43.13:963][901]LogHotReload: Re-instancing VRCharacter after hot-reload.
+[2020.04.14-17.43.14:863][901]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0068 seconds. Added 2 classes and 2 folders.
+[2020.04.14-17.43.14:869][901]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.14-17.43.15:002][901]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2020.04.14-17.43.15:041][901]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 3019 classes and 722 folders.
+[2020.04.14-17.43.15:054][901]Display: HotReload took  1.6s.
+[2020.04.14-18.04.24:429][693]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0094.dll
+[2020.04.14-18.04.25:459][697]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.14-18.04.25:639][697]LogUObjectHash: Compacting FUObjectHashTables data took   8.40ms
+[2020.04.14-18.04.25:672][697]LogClass: Could not find existing class VRCharacter in package /Script/ArchitectureExplorer for HotReload, assuming new class
+[2020.04.14-18.04.25:691][697]LogHotReload: Re-instancing VRCharacter after hot-reload.
+[2020.04.14-18.04.26:267][697]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2020.04.14-18.04.26:272][697]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.14-18.04.26:428][697]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2020.04.14-18.04.26:444][697]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 3019 classes and 722 folders.
+[2020.04.14-18.04.26:450][697]Display: HotReload took  1.0s.

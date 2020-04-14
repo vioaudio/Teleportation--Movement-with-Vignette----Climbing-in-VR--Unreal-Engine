@@ -60,6 +60,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 
 #define ArchitectureExplorer_Source_ArchitectureExplorer_VRCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(AVRCharacter, Camera); } \
+	FORCEINLINE static uint32 __PPO__TeleportPathMeshPool() { return STRUCT_OFFSET(AVRCharacter, TeleportPathMeshPool); } \
 	FORCEINLINE static uint32 __PPO__BlinkerMaterialInstance() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialInstance); } \
 	FORCEINLINE static uint32 __PPO__LeftController() { return STRUCT_OFFSET(AVRCharacter, LeftController); } \
 	FORCEINLINE static uint32 __PPO__RightController() { return STRUCT_OFFSET(AVRCharacter, RightController); } \
@@ -74,7 +75,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 	FORCEINLINE static uint32 __PPO__TeleportSimulationTime() { return STRUCT_OFFSET(AVRCharacter, TeleportSimulationTime); } \
 	FORCEINLINE static uint32 __PPO__TeleportProjectionExtent() { return STRUCT_OFFSET(AVRCharacter, TeleportProjectionExtent); } \
 	FORCEINLINE static uint32 __PPO__RadiusVsVelocity() { return STRUCT_OFFSET(AVRCharacter, RadiusVsVelocity); } \
-	FORCEINLINE static uint32 __PPO__BlinkerMaterialBase() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialBase); }
+	FORCEINLINE static uint32 __PPO__BlinkerMaterialBase() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialBase); } \
+	FORCEINLINE static uint32 __PPO__TeleportArchMaterial() { return STRUCT_OFFSET(AVRCharacter, TeleportArchMaterial); } \
+	FORCEINLINE static uint32 __PPO__TeleportArchMesh() { return STRUCT_OFFSET(AVRCharacter, TeleportArchMesh); }
 
 
 #define ArchitectureExplorer_Source_ArchitectureExplorer_VRCharacter_h_9_PROLOG

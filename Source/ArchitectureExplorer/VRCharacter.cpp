@@ -101,13 +101,32 @@ void AVRCharacter::BeginTeleport()
 	GetWorldTimerManager().SetTimer(Handle, this, &AVRCharacter::FinishTeleport, TeleportFadeTime);
 }
 
+void AVRCharacter::DrawTeleportPath(const TArray<FVector>& Path)
+{
+	UpdateSpline(Path);
+
+	for (int32 i = 0; i < Path.Num(); i++)
+	{
+		if (TeleportPathMeshPool.Num() <= i)//True If there are more points that have not yet been added to the Object Pool
+		{
+			UStaticMeshComponent* DynamicMesh = NewObject<UStaticMeshComponent>(this); //creates new static mesh at runtime
+			DynamicMesh->AttachToComponent(VRRoot, FAttachmentTransformRules::KeepRelativeTransform); // Places Object at 0,0,0 relative to parent
+			DynamicMesh->SetStaticMesh(TeleportArchMesh); //Sets Mesh during Runtime
+			DynamicMesh->SetMaterial(0, TeleportArchMaterial); //Sets Material during Runtime to material at index (0)
+			DynamicMesh->RegisterComponent();
+			TeleportPathMeshPool.Add(DynamicMesh); //Adds it to an Object Pool
+		}
+		UStaticMeshComponent* DynamicMesh = TeleportPathMeshPool[i]; //Gets the current mesh at this index
+		DynamicMesh->SetWorldLocation(Path[i]); //Sets location to index of the point being referred to in the for loop
+	}
+	
+}
+
 bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation)
 {
 	FVector Start = RightController->GetComponentLocation() + FVector(0, 10 ,0);
 	FVector LookDirection = RightController->GetForwardVector();
 	
-	//DrawDebugLine(GetWorld(), Start, End, FColor(0, 255, 0), false, 0.f, 0, 2.f);
-
 	FPredictProjectilePathParams Params(
 		TeleportProjectileRadius,
 		Start,
@@ -135,6 +154,7 @@ bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &Ou
 	//Angles the lookdirection down so that it is more comfortable to choose teleport location
 	//FVector LookDirection = (RightController->GetForwardVector()).RotateAngleAxis(30, RightController->GetRightVector());
 	//FVector End = Start + LookDirection * MaxTeleportDistance;
+	//DrawDebugLine(GetWorld(), Start, End, FColor(0, 255, 0), false, 0.f, 0, 2.f);
 	//FHitResult HitResult;
 	//bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility); //Line Trace
 	//OutLocation = HitResult.Location;
@@ -231,6 +251,7 @@ void AVRCharacter::UpdateSpline(const TArray<FVector>& Path)
 		FSplinePoint Point(i, LocalPosition, ESplinePointType::Curve);
 		TeleportPath->AddPoint(Point, false);
 	}
+
 	TeleportPath->UpdateSpline();
 }
 
@@ -247,7 +268,7 @@ void AVRCharacter::UpdateDestinationMarker()
 		DestinationMarker->SetWorldLocation(Location);
 		DestinationMarker->SetVisibility(true);
 		//UE_LOG(LogTemp, Error, TEXT("Location is %s"), *Location.ToString());
-		UpdateSpline(Path);
+		DrawTeleportPath(Path);
 	}
 	else
 		DestinationMarker->SetVisibility(false); //Hide Marker if Invalid Location

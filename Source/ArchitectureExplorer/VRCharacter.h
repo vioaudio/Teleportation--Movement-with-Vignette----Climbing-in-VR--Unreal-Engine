@@ -28,6 +28,7 @@ public:
 
 private: 
 	void BeginTeleport();
+	void DrawTeleportPath(const TArray<FVector> &Path);
 	FVector2D GetBlinkersCenter();
 	bool FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation);
 	void FinishTeleport();
@@ -42,6 +43,8 @@ private:
 private:
 	UPROPERTY(VisibleAnywhere)
 	class UCameraComponent* Camera;
+	UPROPERTY()
+	TArray<class UStaticMeshComponent*> TeleportPathMeshPool;
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
 	UPROPERTY(VisibleAnywhere)
@@ -74,5 +77,9 @@ private:
 	class UCurveFloat* RadiusVsVelocity;
 	UPROPERTY(EditAnywhere)
 	class UMaterialInterface* BlinkerMaterialBase;
+	UPROPERTY(EditDefaultsOnly) //Ensures level doesn't accidentally change it after default is set
+	class UMaterialInterface* TeleportArchMaterial;
+	UPROPERTY(EditDefaultsOnly)
+	class UStaticMesh* TeleportArchMesh;
 
 };
