@@ -7,10 +7,12 @@
 #include "Components/InputComponent.h"
 #include "Components/PostProcessComponent.h"
 #include "Components/SceneComponent.h"
+#include "Components/SplineComponent.h"
 #include "Components/StaticMeshComponent.h"
 #include "Curves/CurveFloat.h"
 #include "DrawDebugHelpers.h"
 #include "GameFramework/Actor.h"
+#include "Kismet/GameplayStatics.h"
 #include "Materials/MaterialInstanceDynamic.h"
 #include "MotionControllerComponent.h"
 #include "TimerManager.h"
@@ -42,6 +44,9 @@ AVRCharacter::AVRCharacter()
 
 	PostProcessComponent = CreateDefaultSubobject<UPostProcessComponent>(TEXT("Post Process Component"));
 	PostProcessComponent->SetupAttachment(GetRootComponent());
+
+	TeleportPath = CreateDefaultSubobject<USplineComponent>(TEXT("Teleport Path"));
+	TeleportPath->SetupAttachment(RightController);
 }
 
 // Called when the game starts or when spawned
@@ -96,20 +101,43 @@ void AVRCharacter::BeginTeleport()
 	GetWorldTimerManager().SetTimer(Handle, this, &AVRCharacter::FinishTeleport, TeleportFadeTime);
 }
 
-bool AVRCharacter::FindTeleportDestination(FVector & OutLocation)
+bool AVRCharacter::FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation)
 {
 	FVector Start = RightController->GetComponentLocation() + FVector(0, 10 ,0);
-	//Angles the lookdirection down so that it is more comfortable to choose teleport location
-	FVector LookDirection = (RightController->GetForwardVector()).RotateAngleAxis(30, RightController->GetRightVector());
-	FVector End = Start + LookDirection * MaxTeleportDistance;
+	FVector LookDirection = RightController->GetForwardVector();
+	
 	//DrawDebugLine(GetWorld(), Start, End, FColor(0, 255, 0), false, 0.f, 0, 2.f);
 
-	FHitResult HitResult;
-	bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility); //Line Trace
+	FPredictProjectilePathParams Params(
+		TeleportProjectileRadius,
+		Start,
+		LookDirection * TeleportProjectileSpeed,
+		TeleportSimulationTime,
+		ECC_Visibility,
+		this
+	);
+	Params.DrawDebugType = EDrawDebugTrace::ForOneFrame;
+	Params.bTraceComplex = true; //Enables it to hit more things in scene
 
+	FPredictProjectilePathResult Result;
+	bool bHit = UGameplayStatics::PredictProjectilePath(this, Params, Result);
 	if (!bHit) return false;
-	OutLocation = HitResult.Location;
+	
+	for (FPredictProjectilePathPointData PointData : Result.PathData) //Outputs an Array of Locations for each point on the path
+	{
+		OutPath.Add(PointData.Location);
+	}
+
+	OutLocation = Result.HitResult.Location;
 	return bHit;
+
+	//Use Below code for a straight line teleport rather than parabolic
+	//Angles the lookdirection down so that it is more comfortable to choose teleport location
+	//FVector LookDirection = (RightController->GetForwardVector()).RotateAngleAxis(30, RightController->GetRightVector());
+	//FVector End = Start + LookDirection * MaxTeleportDistance;
+	//FHitResult HitResult;
+	//bool bHit = GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility); //Line Trace
+	//OutLocation = HitResult.Location;
 }
 
 void AVRCharacter::FinishTeleport()
@@ -194,19 +222,32 @@ void AVRCharacter::UpdateBlinkers()
 	}
 }
 
+void AVRCharacter::UpdateSpline(const TArray<FVector>& Path)
+{
+	TeleportPath->ClearSplinePoints(false);
+	for (int32 i = 0; i < Path.Num(); i++)
+	{
+		FVector LocalPosition = TeleportPath->GetComponentTransform().InverseTransformPosition(Path[i]); // Coverts Position from World to Local
+		FSplinePoint Point(i, LocalPosition, ESplinePointType::Curve);
+		TeleportPath->AddPoint(Point, false);
+	}
+	TeleportPath->UpdateSpline();
+}
+
 //Teleport Function 
 void AVRCharacter::UpdateDestinationMarker()
 {
 	FVector Location;
-	bool bHasDestination = FindTeleportDestination(Location);
+	TArray<FVector> Path;
+	bool bHasDestination = FindTeleportDestination(Path, Location);
 
 	//Set the teleport destination
 	if (bHasDestination)
 	{
 		DestinationMarker->SetWorldLocation(Location);
 		DestinationMarker->SetVisibility(true);
-		UE_LOG(LogTemp, Error, TEXT("Location is %s"), *Location.ToString());
-
+		//UE_LOG(LogTemp, Error, TEXT("Location is %s"), *Location.ToString());
+		UpdateSpline(Path);
 	}
 	else
 		DestinationMarker->SetVisibility(false); //Hide Marker if Invalid Location

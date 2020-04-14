@@ -65,9 +65,13 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AVRCharacter); \
 	FORCEINLINE static uint32 __PPO__RightController() { return STRUCT_OFFSET(AVRCharacter, RightController); } \
 	FORCEINLINE static uint32 __PPO__PostProcessComponent() { return STRUCT_OFFSET(AVRCharacter, PostProcessComponent); } \
 	FORCEINLINE static uint32 __PPO__VRRoot() { return STRUCT_OFFSET(AVRCharacter, VRRoot); } \
+	FORCEINLINE static uint32 __PPO__TeleportPath() { return STRUCT_OFFSET(AVRCharacter, TeleportPath); } \
 	FORCEINLINE static uint32 __PPO__DestinationMarker() { return STRUCT_OFFSET(AVRCharacter, DestinationMarker); } \
 	FORCEINLINE static uint32 __PPO__MaxTeleportDistance() { return STRUCT_OFFSET(AVRCharacter, MaxTeleportDistance); } \
 	FORCEINLINE static uint32 __PPO__TeleportFadeTime() { return STRUCT_OFFSET(AVRCharacter, TeleportFadeTime); } \
+	FORCEINLINE static uint32 __PPO__TeleportProjectileRadius() { return STRUCT_OFFSET(AVRCharacter, TeleportProjectileRadius); } \
+	FORCEINLINE static uint32 __PPO__TeleportProjectileSpeed() { return STRUCT_OFFSET(AVRCharacter, TeleportProjectileSpeed); } \
+	FORCEINLINE static uint32 __PPO__TeleportSimulationTime() { return STRUCT_OFFSET(AVRCharacter, TeleportSimulationTime); } \
 	FORCEINLINE static uint32 __PPO__TeleportProjectionExtent() { return STRUCT_OFFSET(AVRCharacter, TeleportProjectionExtent); } \
 	FORCEINLINE static uint32 __PPO__RadiusVsVelocity() { return STRUCT_OFFSET(AVRCharacter, RadiusVsVelocity); } \
 	FORCEINLINE static uint32 __PPO__BlinkerMaterialBase() { return STRUCT_OFFSET(AVRCharacter, BlinkerMaterialBase); }

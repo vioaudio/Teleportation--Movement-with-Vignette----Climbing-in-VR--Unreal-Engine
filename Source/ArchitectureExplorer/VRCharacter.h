@@ -29,12 +29,13 @@ public:
 private: 
 	void BeginTeleport();
 	FVector2D GetBlinkersCenter();
-	bool FindTeleportDestination(FVector &OutLocation);
+	bool FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation);
 	void FinishTeleport();
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
 	void StartCameraFade(float FromAlpha, float ToAlpha);
 	void UpdateBlinkers();
+	void UpdateSpline(const TArray<FVector> &Path);
 	void UpdateDestinationMarker();
 
 
@@ -52,6 +53,8 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	class USceneComponent* VRRoot;
 	UPROPERTY(VisibleAnywhere)
+	class USplineComponent* TeleportPath;
+	UPROPERTY(VisibleAnywhere)
 	class UStaticMeshComponent* DestinationMarker;
 
 private:
@@ -59,6 +62,12 @@ private:
 	float MaxTeleportDistance = 1000.f;
 	UPROPERTY(EditAnywhere)
 	float TeleportFadeTime = 1.f;
+	UPROPERTY(EditAnywhere)
+	float TeleportProjectileRadius = 10.f;
+	UPROPERTY(EditAnywhere)
+	float TeleportProjectileSpeed = 800;
+	UPROPERTY(EditAnywhere)
+	float TeleportSimulationTime = 1; //Distance of Parabola
 	UPROPERTY(EditAnywhere)
 	FVector TeleportProjectionExtent = FVector(100, 100, 100);
 	UPROPERTY(EditAnywhere)
