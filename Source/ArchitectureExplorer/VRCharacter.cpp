@@ -99,7 +99,9 @@ void AVRCharacter::BeginTeleport()
 bool AVRCharacter::FindTeleportDestination(FVector & OutLocation)
 {
 	FVector Start = RightController->GetComponentLocation() + FVector(0, 10 ,0);
-	FVector End = Start + RightController->GetForwardVector() * MaxTeleportDistance;
+	//Angles the lookdirection down so that it is more comfortable to choose teleport location
+	FVector LookDirection = (RightController->GetForwardVector()).RotateAngleAxis(30, RightController->GetRightVector());
+	FVector End = Start + LookDirection * MaxTeleportDistance;
 	//DrawDebugLine(GetWorld(), Start, End, FColor(0, 255, 0), false, 0.f, 0, 2.f);
 
 	FHitResult HitResult;

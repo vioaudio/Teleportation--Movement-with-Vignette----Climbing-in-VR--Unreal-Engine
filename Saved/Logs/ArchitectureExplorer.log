@@ -10824,3 +10824,989 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.14-03.12.12:152][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_VRCharacter]
 [2020.04.14-03.12.12:212][797]LogSavePackage: Moving '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/BP_VRCharacter_Auto33743FECD46585219532EDA954AD727AD.tmp' to '../../../../../../Users/jaqso/Documents/Unreal/Projects/ArchitectureExplorer/Saved/Autosaves/Game/BP_VRCharacter_Auto3.uasset'
 [2020.04.14-03.12.12:213][797]LogFileHelpers: Auto-saving content packages took 0.083
+[2020.04.14-03.18.18:989][894]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0086.dll
+[2020.04.14-03.18.20:357][899]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.14-03.18.20:422][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.04.14-03.18.20:450][899]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0004 seconds. Added 2 classes and 2 folders.
+[2020.04.14-03.18.20:455][899]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.14-03.18.20:561][899]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2020.04.14-03.18.20:578][899]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3019 classes and 722 folders.
+[2020.04.14-03.18.20:582][899]Display: HotReload took  0.2s.
+[2020.04.14-03.18.34:934][944]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-03.18.36:303][ 24]LogTemp: Repeating last play command: VR Preview
+[2020.04.14-03.18.36:332][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.14-03.18.36:332][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.14-03.18.36:332][ 24]PIE: New page: PIE session: MainMap (Apr 13, 2020, 1:18:36 PM)
+[2020.04.14-03.18.36:333][ 24]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.14-03.18.36:484][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.151035s)
+[2020.04.14-03.18.36:485][ 24]LogAIModule: Creating AISystem for world MainMap
+[2020.04.14-03.18.36:485][ 24]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2020.04.14-03.18.36:485][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.152367s)
+[2020.04.14-03.18.36:555][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.04.14-03.18.36:555][ 24]LogHMD: Initializing OVRPlugin session
+[2020.04.14-03.18.36:684][ 24]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.14-03.18.36:685][ 24]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.14-03.18.36:685][ 24]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.14-03.18.36:685][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.14-03.18.36:685][ 24]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.14-03.18.36:685][ 24]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.14-03.18.36:685][ 24]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.14-03.18.36:685][ 24]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.14-03.18.36:685][ 24]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.14-03.18.36:686][ 24]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.14-03.18.36:686][ 24]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: Channel Order:
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-03.18.36:719][ 24]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: Channel Order:
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-03.18.36:722][ 24]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-03.18.36:738][ 24]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.14-03.18.36:739][ 24]LogInit: FAudioDevice initialized.
+[2020.04.14-03.18.36:749][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-03.18.36:774][ 24]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.14-03.18.36:790][ 24]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.13-20.18.36
+[2020.04.14-03.18.36:790][ 24]LogWorld: Bringing up level for play took: 0.015012
+[2020.04.14-03.18.36:790][ 24]LogOnline: OSS: Creating online subsystem instance for: :Context_40
+[2020.04.14-03.18.36:796][ 24]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap 0.75
+[2020.04.14-03.18.36:797][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.14-03.18.36:797][ 24]LogEngine: Changing dynamic resolution state.
+[2020.04.14-03.18.36:797][ 24]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.36:932][ 24]LogHMD: Allocating Oculus 3616 x 2000 depth rendertarget swapchain
+[2020.04.14-03.18.36:965][ 25]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.36:970][ 26]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.36:998][ 27]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:018][ 28]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:041][ 29]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:062][ 30]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:081][ 31]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:102][ 32]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:123][ 33]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:145][ 34]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:165][ 35]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:187][ 36]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:205][ 37]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:229][ 38]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:247][ 39]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:268][ 40]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:288][ 41]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:308][ 42]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:329][ 43]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:351][ 44]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:371][ 45]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:390][ 46]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:411][ 47]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:430][ 48]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:452][ 49]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:471][ 50]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:492][ 51]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:511][ 52]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:531][ 53]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:551][ 54]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:572][ 55]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:592][ 56]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:613][ 57]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:632][ 58]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:652][ 59]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:673][ 60]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:693][ 61]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:713][ 62]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:734][ 63]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:754][ 64]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:776][ 65]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:798][ 66]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:820][ 67]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:843][ 68]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:865][ 69]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:888][ 70]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:909][ 71]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:929][ 72]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:950][ 73]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:970][ 74]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.37:989][ 75]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:009][ 76]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:028][ 77]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:049][ 78]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:068][ 79]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:088][ 80]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:107][ 81]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:127][ 82]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:146][ 83]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:166][ 84]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:186][ 85]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:205][ 86]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:226][ 87]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:245][ 88]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:266][ 89]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:285][ 90]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:305][ 91]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:325][ 92]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:345][ 93]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:365][ 94]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:384][ 95]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:404][ 96]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:424][ 97]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:444][ 98]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:463][ 99]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:484][100]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:503][101]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:523][102]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:542][103]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:563][104]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:582][105]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:602][106]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:623][107]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:643][108]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:662][109]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:682][110]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:702][111]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:722][112]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:746][113]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:761][114]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:782][115]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:802][116]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:823][117]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:843][118]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:863][119]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:884][120]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:904][121]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:925][122]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:948][123]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:966][124]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.38:986][125]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:005][126]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:025][127]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:044][128]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:068][129]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:085][130]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:105][131]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:124][132]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:144][133]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:165][134]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:183][135]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:201][136]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:221][137]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:241][138]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:261][139]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:282][140]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:301][141]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:321][142]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:340][143]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:360][144]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:380][145]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:399][146]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:419][147]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:438][148]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:459][149]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:479][150]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:498][151]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:519][152]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:538][153]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:557][154]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:578][155]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:598][156]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:617][157]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:636][158]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:659][159]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:678][160]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:698][161]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:718][162]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:744][163]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:764][164]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:807][165]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:834][166]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:848][167]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:876][168]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:902][169]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:928][170]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:955][171]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.39:985][172]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:012][173]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:042][174]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:071][175]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:100][176]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:129][177]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:157][178]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:185][179]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:213][180]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:241][181]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:270][182]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:298][183]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:327][184]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:354][185]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:382][186]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:410][187]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:438][188]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:466][189]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:493][190]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:521][191]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:549][192]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:577][193]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:604][194]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:633][195]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:660][196]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:689][197]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:717][198]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:743][199]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:771][200]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:799][201]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:827][202]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:855][203]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:884][204]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:912][205]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.40:938][206]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:021][207]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:028][208]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:053][209]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:084][210]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:115][211]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:139][212]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:164][213]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:190][214]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:215][215]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:241][216]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:267][217]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:295][218]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:322][219]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:351][220]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:378][221]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:406][222]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:434][223]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:462][224]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:491][225]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:519][226]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:548][227]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:576][228]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:604][229]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:632][230]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:661][231]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:689][232]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:717][233]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:745][234]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:774][235]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:802][236]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:830][237]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:856][238]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:886][239]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:913][240]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:941][241]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:969][242]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.41:997][243]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:025][244]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:053][245]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:081][246]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:108][247]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:136][248]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:164][249]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:193][250]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:220][251]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:248][252]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:276][253]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:304][254]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:331][255]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:359][256]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:386][257]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:415][258]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:444][259]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:471][260]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:498][261]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:526][262]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:555][263]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:583][264]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:611][265]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:639][266]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:666][267]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:694][268]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:722][269]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:750][270]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:779][271]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:807][272]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:834][273]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:862][274]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:890][275]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:919][276]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:945][277]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.42:973][278]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:001][279]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:029][280]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:057][281]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:085][282]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:113][283]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:141][284]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:169][285]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:197][286]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:225][287]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:253][288]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:282][289]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:310][290]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:338][291]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:367][292]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:395][293]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:423][294]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:449][295]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:477][296]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:504][297]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:532][298]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:561][299]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:589][300]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:617][301]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:645][302]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:674][303]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:702][304]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:730][305]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:757][306]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:785][307]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:813][308]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:841][309]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:869][310]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:897][311]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:925][312]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:953][313]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.43:981][314]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:009][315]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:036][316]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:064][317]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:091][318]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:120][319]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:147][320]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:175][321]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:203][322]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:231][323]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:259][324]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:287][325]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:315][326]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:343][327]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:372][328]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:400][329]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:427][330]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:453][331]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:481][332]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:509][333]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:536][334]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:565][335]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:592][336]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:620][337]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:647][338]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:676][339]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:704][340]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:732][341]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:760][342]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:789][343]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:817][344]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:844][345]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:871][346]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:899][347]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:928][348]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:956][349]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.44:984][350]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.45:012][351]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.45:040][352]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.45:069][353]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.45:096][354]LogTemp: Error: Location is X=60.000 Y=-1024.791 Z=95.000
+[2020.04.14-03.18.45:123][355]LogTemp: Error: Location is X=338.863 Y=-1110.834 Z=95.000
+[2020.04.14-03.18.45:150][356]LogTemp: Error: Location is X=335.928 Y=-1106.009 Z=95.000
+[2020.04.14-03.18.45:178][357]LogTemp: Error: Location is X=333.332 Y=-1106.683 Z=95.000
+[2020.04.14-03.18.45:206][358]LogTemp: Error: Location is X=195.582 Y=-1055.733 Z=95.000
+[2020.04.14-03.18.45:234][359]LogTemp: Error: Location is X=196.340 Y=-1054.002 Z=95.000
+[2020.04.14-03.18.45:262][360]LogTemp: Error: Location is X=193.636 Y=-1055.021 Z=95.000
+[2020.04.14-03.18.45:290][361]LogTemp: Error: Location is X=190.636 Y=-1055.918 Z=95.000
+[2020.04.14-03.18.45:318][362]LogTemp: Error: Location is X=188.014 Y=-1055.125 Z=95.000
+[2020.04.14-03.18.45:346][363]LogTemp: Error: Location is X=188.361 Y=-1052.768 Z=95.000
+[2020.04.14-03.18.45:374][364]LogTemp: Error: Location is X=188.921 Y=-1053.386 Z=95.000
+[2020.04.14-03.18.45:402][365]LogTemp: Error: Location is X=184.614 Y=-1053.659 Z=95.000
+[2020.04.14-03.18.45:429][366]LogTemp: Error: Location is X=179.073 Y=-1057.848 Z=95.000
+[2020.04.14-03.18.45:457][367]LogTemp: Error: Location is X=173.474 Y=-1062.427 Z=95.000
+[2020.04.14-03.18.45:485][368]LogTemp: Error: Location is X=169.188 Y=-1066.588 Z=95.000
+[2020.04.14-03.18.45:513][369]LogTemp: Error: Location is X=166.970 Y=-1066.010 Z=95.000
+[2020.04.14-03.18.45:541][370]LogTemp: Error: Location is X=163.077 Y=-1063.324 Z=95.000
+[2020.04.14-03.18.45:569][371]LogTemp: Error: Location is X=159.172 Y=-1056.196 Z=95.000
+[2020.04.14-03.18.45:597][372]LogTemp: Error: Location is X=154.133 Y=-1052.943 Z=95.000
+[2020.04.14-03.18.45:625][373]LogTemp: Error: Location is X=151.119 Y=-1053.029 Z=95.000
+[2020.04.14-03.18.45:652][374]LogTemp: Error: Location is X=149.901 Y=-1049.061 Z=95.000
+[2020.04.14-03.18.45:679][375]LogTemp: Error: Location is X=143.215 Y=-1045.397 Z=95.000
+[2020.04.14-03.18.45:707][376]LogTemp: Error: Location is X=137.613 Y=-1039.321 Z=95.000
+[2020.04.14-03.18.45:735][377]LogTemp: Error: Location is X=130.354 Y=-1035.806 Z=95.000
+[2020.04.14-03.18.45:763][378]LogTemp: Error: Location is X=125.242 Y=-1029.374 Z=95.000
+[2020.04.14-03.18.45:791][379]LogTemp: Error: Location is X=113.942 Y=-1026.053 Z=95.000
+[2020.04.14-03.18.45:820][380]LogTemp: Error: Location is X=104.327 Y=-1019.504 Z=95.000
+[2020.04.14-03.18.45:847][381]LogTemp: Error: Location is X=96.298 Y=-1015.611 Z=95.000
+[2020.04.14-03.18.45:874][382]LogTemp: Error: Location is X=88.352 Y=-1014.888 Z=95.000
+[2020.04.14-03.18.45:902][383]LogTemp: Error: Location is X=80.763 Y=-1010.440 Z=95.000
+[2020.04.14-03.18.45:930][384]LogTemp: Error: Location is X=76.629 Y=-1005.852 Z=95.000
+[2020.04.14-03.18.45:958][385]LogTemp: Error: Location is X=76.321 Y=-1001.324 Z=95.000
+[2020.04.14-03.18.45:986][386]LogTemp: Error: Location is X=80.776 Y=-999.843 Z=95.000
+[2020.04.14-03.18.46:014][387]LogTemp: Error: Location is X=84.089 Y=-997.169 Z=95.000
+[2020.04.14-03.18.46:041][388]LogTemp: Error: Location is X=81.111 Y=-989.803 Z=95.000
+[2020.04.14-03.18.46:069][389]LogTemp: Error: Location is X=75.726 Y=-980.972 Z=95.000
+[2020.04.14-03.18.46:097][390]LogTemp: Error: Location is X=77.309 Y=-976.386 Z=95.000
+[2020.04.14-03.18.46:126][391]LogTemp: Error: Location is X=81.903 Y=-976.389 Z=95.000
+[2020.04.14-03.18.46:153][392]LogTemp: Error: Location is X=83.060 Y=-974.129 Z=95.000
+[2020.04.14-03.18.46:181][393]LogTemp: Error: Location is X=81.846 Y=-968.175 Z=95.000
+[2020.04.14-03.18.46:209][394]LogTemp: Error: Location is X=81.691 Y=-967.214 Z=95.000
+[2020.04.14-03.18.46:237][395]LogTemp: Error: Location is X=56.781 Y=-724.673 Z=95.000
+[2020.04.14-03.18.46:265][396]LogTemp: Error: Location is X=58.879 Y=-740.365 Z=95.000
+[2020.04.14-03.18.46:293][397]LogTemp: Error: Location is X=59.356 Y=-740.988 Z=95.000
+[2020.04.14-03.18.46:320][398]LogTemp: Error: Location is X=60.606 Y=-738.051 Z=95.000
+[2020.04.14-03.18.46:348][399]LogTemp: Error: Location is X=63.010 Y=-730.120 Z=95.000
+[2020.04.14-03.18.46:376][400]LogTemp: Error: Location is X=63.918 Y=-722.841 Z=95.000
+[2020.04.14-03.18.46:405][401]LogTemp: Error: Location is X=63.975 Y=-721.852 Z=95.000
+[2020.04.14-03.18.46:432][402]LogTemp: Error: Location is X=64.108 Y=-725.964 Z=95.000
+[2020.04.14-03.18.46:461][403]LogTemp: Error: Location is X=65.828 Y=-727.845 Z=95.000
+[2020.04.14-03.18.46:488][404]LogTemp: Error: Location is X=71.002 Y=-730.345 Z=95.000
+[2020.04.14-03.18.46:516][405]LogTemp: Error: Location is X=73.557 Y=-730.788 Z=95.000
+[2020.04.14-03.18.46:543][406]LogTemp: Error: Location is X=74.401 Y=-729.774 Z=95.000
+[2020.04.14-03.18.46:572][407]LogTemp: Error: Location is X=76.871 Y=-732.341 Z=95.000
+[2020.04.14-03.18.46:599][408]LogTemp: Error: Location is X=83.088 Y=-727.935 Z=95.000
+[2020.04.14-03.18.46:628][409]LogTemp: Error: Location is X=87.899 Y=-722.182 Z=95.000
+[2020.04.14-03.18.46:655][410]LogTemp: Error: Location is X=92.241 Y=-723.834 Z=95.000
+[2020.04.14-03.18.46:683][411]LogTemp: Error: Location is X=96.376 Y=-729.337 Z=95.000
+[2020.04.14-03.18.46:711][412]LogTemp: Error: Location is X=106.121 Y=-731.574 Z=95.000
+[2020.04.14-03.18.46:739][413]LogTemp: Error: Location is X=114.606 Y=-734.796 Z=95.000
+[2020.04.14-03.18.46:766][414]LogTemp: Error: Location is X=120.151 Y=-733.889 Z=95.000
+[2020.04.14-03.18.46:794][415]LogTemp: Error: Location is X=124.477 Y=-731.186 Z=95.000
+[2020.04.14-03.18.46:822][416]LogTemp: Error: Location is X=133.132 Y=-728.436 Z=95.000
+[2020.04.14-03.18.46:850][417]LogTemp: Error: Location is X=136.914 Y=-736.239 Z=95.000
+[2020.04.14-03.18.46:878][418]LogTemp: Error: Location is X=145.101 Y=-739.476 Z=95.000
+[2020.04.14-03.18.46:906][419]LogTemp: Error: Location is X=154.866 Y=-740.219 Z=95.000
+[2020.04.14-03.18.46:934][420]LogTemp: Error: Location is X=155.081 Y=-758.561 Z=100.486
+[2020.04.14-03.18.46:962][421]LogTemp: Error: Location is X=158.821 Y=-759.620 Z=100.486
+[2020.04.14-03.18.46:989][422]LogTemp: Error: Location is X=161.546 Y=-755.762 Z=100.486
+[2020.04.14-03.18.47:015][423]LogTemp: Error: Location is X=173.948 Y=-732.670 Z=95.000
+[2020.04.14-03.18.47:041][424]LogTemp: Error: Location is X=171.543 Y=-733.174 Z=95.000
+[2020.04.14-03.18.47:069][425]LogTemp: Error: Location is X=158.312 Y=-751.697 Z=100.486
+[2020.04.14-03.18.47:096][426]LogTemp: Error: Location is X=153.614 Y=-753.719 Z=100.486
+[2020.04.14-03.18.47:124][427]LogTemp: Error: Location is X=146.377 Y=-742.365 Z=95.000
+[2020.04.14-03.18.47:152][428]LogTemp: Error: Location is X=131.705 Y=-760.003 Z=101.911
+[2020.04.14-03.18.47:180][429]LogTemp: Error: Location is X=130.391 Y=-740.845 Z=95.000
+[2020.04.14-03.18.47:208][430]LogTemp: Error: Location is X=127.844 Y=-740.461 Z=95.000
+[2020.04.14-03.18.47:236][431]LogTemp: Error: Location is X=122.549 Y=-733.330 Z=95.000
+[2020.04.14-03.18.47:264][432]LogTemp: Error: Location is X=116.293 Y=-727.381 Z=95.000
+[2020.04.14-03.18.47:292][433]LogTemp: Error: Location is X=113.558 Y=-735.304 Z=95.000
+[2020.04.14-03.18.47:320][434]LogTemp: Error: Location is X=114.757 Y=-738.202 Z=95.000
+[2020.04.14-03.18.47:348][435]LogTemp: Error: Location is X=116.894 Y=-736.333 Z=95.000
+[2020.04.14-03.18.47:376][436]LogTemp: Error: Location is X=119.130 Y=-733.621 Z=95.000
+[2020.04.14-03.18.47:404][437]LogTemp: Error: Location is X=122.593 Y=-730.749 Z=95.000
+[2020.04.14-03.18.47:433][438]LogTemp: Error: Location is X=129.357 Y=-721.635 Z=95.000
+[2020.04.14-03.18.47:461][439]LogTemp: Error: Location is X=127.649 Y=-725.898 Z=95.000
+[2020.04.14-03.18.47:488][440]LogTemp: Error: Location is X=126.903 Y=-734.376 Z=95.000
+[2020.04.14-03.18.47:516][441]LogTemp: Error: Location is X=125.107 Y=-737.021 Z=95.000
+[2020.04.14-03.18.47:544][442]LogTemp: Error: Location is X=120.674 Y=-737.005 Z=95.000
+[2020.04.14-03.18.47:572][443]LogTemp: Error: Location is X=114.514 Y=-738.433 Z=95.000
+[2020.04.14-03.18.47:599][444]LogTemp: Error: Location is X=109.433 Y=-735.653 Z=95.000
+[2020.04.14-03.18.47:628][445]LogTemp: Error: Location is X=108.941 Y=-725.763 Z=95.000
+[2020.04.14-03.18.47:655][446]LogTemp: Error: Location is X=109.562 Y=-726.388 Z=95.000
+[2020.04.14-03.18.47:683][447]LogTemp: Error: Location is X=112.463 Y=-728.302 Z=95.000
+[2020.04.14-03.18.47:711][448]LogTemp: Error: Location is X=111.859 Y=-733.060 Z=95.000
+[2020.04.14-03.18.47:739][449]LogTemp: Error: Location is X=108.706 Y=-739.743 Z=95.000
+[2020.04.14-03.18.47:767][450]LogTemp: Error: Location is X=108.806 Y=-742.083 Z=95.000
+[2020.04.14-03.18.47:795][451]LogTemp: Error: Location is X=107.784 Y=-743.709 Z=95.000
+[2020.04.14-03.18.47:822][452]LogTemp: Error: Location is X=103.016 Y=-743.066 Z=95.000
+[2020.04.14-03.18.47:851][453]LogTemp: Error: Location is X=94.772 Y=-746.468 Z=95.000
+[2020.04.14-03.18.47:878][454]LogTemp: Error: Location is X=90.741 Y=-750.015 Z=95.000
+[2020.04.14-03.18.47:906][455]LogTemp: Error: Location is X=94.964 Y=-753.758 Z=95.000
+[2020.04.14-03.18.47:934][456]LogTemp: Error: Location is X=96.513 Y=-755.840 Z=95.000
+[2020.04.14-03.18.47:962][457]LogTemp: Error: Location is X=96.568 Y=-756.135 Z=95.000
+[2020.04.14-03.18.47:991][458]LogTemp: Error: Location is X=95.210 Y=-756.149 Z=95.000
+[2020.04.14-03.18.48:018][459]LogTemp: Error: Location is X=94.566 Y=-755.635 Z=95.000
+[2020.04.14-03.18.48:046][460]LogTemp: Error: Location is X=94.821 Y=-755.960 Z=95.000
+[2020.04.14-03.18.48:074][461]LogTemp: Error: Location is X=94.848 Y=-756.573 Z=95.000
+[2020.04.14-03.18.48:102][462]LogTemp: Error: Location is X=94.643 Y=-759.822 Z=95.000
+[2020.04.14-03.18.48:130][463]LogTemp: Error: Location is X=94.835 Y=-761.651 Z=95.000
+[2020.04.14-03.18.48:157][464]LogTemp: Error: Location is X=96.284 Y=-763.528 Z=95.000
+[2020.04.14-03.18.48:185][465]LogTemp: Error: Location is X=95.865 Y=-761.706 Z=95.000
+[2020.04.14-03.18.48:213][466]LogTemp: Error: Location is X=93.802 Y=-761.857 Z=95.000
+[2020.04.14-03.18.48:240][467]LogTemp: Error: Location is X=94.239 Y=-760.544 Z=95.000
+[2020.04.14-03.18.48:268][468]LogTemp: Error: Location is X=94.942 Y=-759.839 Z=95.000
+[2020.04.14-03.18.48:295][469]LogTemp: Error: Location is X=95.444 Y=-762.115 Z=95.000
+[2020.04.14-03.18.48:324][470]LogTemp: Error: Location is X=96.360 Y=-764.292 Z=95.000
+[2020.04.14-03.18.48:351][471]LogTemp: Error: Location is X=98.363 Y=-765.121 Z=95.000
+[2020.04.14-03.18.48:379][472]LogTemp: Error: Location is X=98.505 Y=-764.583 Z=95.000
+[2020.04.14-03.18.48:407][473]LogTemp: Error: Location is X=97.418 Y=-762.897 Z=95.000
+[2020.04.14-03.18.48:435][474]LogTemp: Error: Location is X=91.873 Y=-757.245 Z=95.000
+[2020.04.14-03.18.48:463][475]LogTemp: Error: Location is X=81.504 Y=-756.107 Z=95.000
+[2020.04.14-03.18.48:490][476]LogTemp: Error: Location is X=74.683 Y=-755.421 Z=95.000
+[2020.04.14-03.18.48:518][477]LogTemp: Error: Location is X=71.058 Y=-755.774 Z=95.000
+[2020.04.14-03.18.48:547][478]LogTemp: Error: Location is X=65.233 Y=-754.387 Z=95.000
+[2020.04.14-03.18.48:575][479]LogTemp: Error: Location is X=50.800 Y=-753.094 Z=95.000
+[2020.04.14-03.18.48:603][480]LogTemp: Error: Location is X=35.529 Y=-743.388 Z=95.000
+[2020.04.14-03.18.48:631][481]LogTemp: Error: Location is X=22.906 Y=-742.993 Z=95.000
+[2020.04.14-03.18.48:659][482]LogTemp: Error: Location is X=12.566 Y=-745.281 Z=95.000
+[2020.04.14-03.18.48:686][483]LogTemp: Error: Location is X=0.308 Y=-753.838 Z=95.000
+[2020.04.14-03.18.48:715][484]LogTemp: Error: Location is X=-14.064 Y=-764.902 Z=95.000
+[2020.04.14-03.18.48:742][485]LogTemp: Error: Location is X=-21.163 Y=-779.355 Z=95.000
+[2020.04.14-03.18.48:770][486]LogTemp: Error: Location is X=-31.324 Y=-790.452 Z=95.000
+[2020.04.14-03.18.48:799][487]LogTemp: Error: Location is X=-35.586 Y=-803.508 Z=95.000
+[2020.04.14-03.18.48:827][488]LogTemp: Error: Location is X=-45.740 Y=-813.400 Z=95.000
+[2020.04.14-03.18.48:855][489]LogTemp: Error: Location is X=-59.592 Y=-819.945 Z=95.000
+[2020.04.14-03.18.48:885][490]LogTemp: Error: Location is X=-63.526 Y=-827.344 Z=95.000
+[2020.04.14-03.18.48:912][491]LogTemp: Error: Location is X=-63.480 Y=-836.119 Z=95.000
+[2020.04.14-03.18.48:939][492]LogTemp: Error: Location is X=-62.159 Y=-840.433 Z=95.000
+[2020.04.14-03.18.48:967][493]LogTemp: Error: Location is X=-61.148 Y=-843.620 Z=95.000
+[2020.04.14-03.18.48:996][494]LogTemp: Error: Location is X=-64.478 Y=-840.135 Z=95.000
+[2020.04.14-03.18.49:024][495]LogTemp: Error: Location is X=-69.454 Y=-833.636 Z=95.000
+[2020.04.14-03.18.49:052][496]LogTemp: Error: Location is X=-79.900 Y=-824.885 Z=95.000
+[2020.04.14-03.18.49:081][497]LogTemp: Error: Location is X=-98.395 Y=-813.427 Z=95.000
+[2020.04.14-03.18.49:107][498]LogTemp: Error: Location is X=-122.307 Y=-796.252 Z=95.000
+[2020.04.14-03.18.49:135][499]LogTemp: Error: Location is X=-153.121 Y=-772.903 Z=100.405
+[2020.04.14-03.18.49:163][500]LogTemp: Error: Location is X=-245.798 Y=-706.543 Z=95.000
+[2020.04.14-03.18.49:192][501]LogTemp: Error: Location is X=-343.425 Y=-635.301 Z=95.000
+[2020.04.14-03.18.49:609][516]LogTemp: Error: Location is X=-405.437 Y=-555.612 Z=95.000
+[2020.04.14-03.18.49:637][517]LogTemp: Error: Location is X=-329.191 Y=-611.562 Z=95.000
+[2020.04.14-03.18.49:665][518]LogTemp: Error: Location is X=-269.329 Y=-657.774 Z=95.000
+[2020.04.14-03.18.49:693][519]LogTemp: Error: Location is X=-238.773 Y=-680.313 Z=95.000
+[2020.04.14-03.18.49:721][520]LogTemp: Error: Location is X=-223.724 Y=-697.453 Z=95.000
+[2020.04.14-03.18.49:749][521]LogTemp: Error: Location is X=-214.001 Y=-706.022 Z=95.000
+[2020.04.14-03.18.49:777][522]LogTemp: Error: Location is X=-205.473 Y=-712.048 Z=95.000
+[2020.04.14-03.18.49:805][523]LogTemp: Error: Location is X=-214.489 Y=-703.064 Z=95.000
+[2020.04.14-03.18.49:833][524]LogTemp: Error: Location is X=-219.623 Y=-700.177 Z=95.000
+[2020.04.14-03.18.49:860][525]LogTemp: Error: Location is X=-224.172 Y=-697.162 Z=95.000
+[2020.04.14-03.18.49:887][526]LogTemp: Error: Location is X=-224.561 Y=-697.217 Z=95.000
+[2020.04.14-03.18.49:915][527]LogTemp: Error: Location is X=-222.553 Y=-698.319 Z=95.000
+[2020.04.14-03.18.49:943][528]LogTemp: Error: Location is X=-217.811 Y=-700.817 Z=95.000
+[2020.04.14-03.18.49:971][529]LogTemp: Error: Location is X=-214.301 Y=-702.040 Z=95.000
+[2020.04.14-03.18.49:999][530]LogTemp: Error: Location is X=-212.917 Y=-701.694 Z=95.000
+[2020.04.14-03.18.50:027][531]LogTemp: Error: Location is X=-215.129 Y=-699.304 Z=95.000
+[2020.04.14-03.18.50:055][532]LogTemp: Error: Location is X=-218.817 Y=-697.144 Z=95.000
+[2020.04.14-03.18.50:083][533]LogTemp: Error: Location is X=-221.971 Y=-694.585 Z=95.000
+[2020.04.14-03.18.50:109][534]LogTemp: Error: Location is X=-222.241 Y=-694.224 Z=95.000
+[2020.04.14-03.18.50:137][535]LogTemp: Error: Location is X=-220.364 Y=-695.196 Z=95.000
+[2020.04.14-03.18.50:165][536]LogTemp: Error: Location is X=-212.356 Y=-700.468 Z=95.000
+[2020.04.14-03.18.50:193][537]LogTemp: Error: Location is X=-199.884 Y=-707.300 Z=95.000
+[2020.04.14-03.18.50:221][538]LogTemp: Error: Location is X=-196.244 Y=-706.253 Z=95.000
+[2020.04.14-03.18.50:249][539]LogTemp: Error: Location is X=-196.552 Y=-706.853 Z=95.000
+[2020.04.14-03.18.50:277][540]LogTemp: Error: Location is X=-191.943 Y=-709.027 Z=95.000
+[2020.04.14-03.18.50:305][541]LogTemp: Error: Location is X=-184.994 Y=-711.231 Z=95.000
+[2020.04.14-03.18.50:333][542]LogTemp: Error: Location is X=-180.895 Y=-713.607 Z=95.000
+[2020.04.14-03.18.50:361][543]LogTemp: Error: Location is X=-174.328 Y=-713.637 Z=95.000
+[2020.04.14-03.18.50:390][544]LogTemp: Error: Location is X=-158.046 Y=-714.470 Z=95.000
+[2020.04.14-03.18.50:417][545]LogTemp: Error: Location is X=-159.284 Y=-701.166 Z=95.000
+[2020.04.14-03.18.50:444][546]LogTemp: Error: Location is X=-163.680 Y=-690.681 Z=95.000
+[2020.04.14-03.18.50:473][547]LogTemp: Error: Location is X=-165.774 Y=-679.847 Z=95.000
+[2020.04.14-03.18.50:501][548]LogTemp: Error: Location is X=-146.570 Y=-679.905 Z=95.000
+[2020.04.14-03.18.50:527][549]LogTemp: Error: Location is X=-125.322 Y=-682.042 Z=95.000
+[2020.04.14-03.18.50:555][550]LogTemp: Error: Location is X=-108.109 Y=-689.361 Z=95.000
+[2020.04.14-03.18.50:582][551]LogTemp: Error: Location is X=-93.402 Y=-693.031 Z=95.000
+[2020.04.14-03.18.50:611][552]LogTemp: Error: Location is X=-77.523 Y=-694.556 Z=95.000
+[2020.04.14-03.18.50:638][553]LogTemp: Error: Location is X=-64.436 Y=-697.334 Z=95.000
+[2020.04.14-03.18.50:667][554]LogTemp: Error: Location is X=-62.154 Y=-694.251 Z=95.000
+[2020.04.14-03.18.50:696][555]LogTemp: Error: Location is X=-48.122 Y=-699.605 Z=95.000
+[2020.04.14-03.18.50:723][556]LogTemp: Error: Location is X=-28.499 Y=-715.479 Z=95.000
+[2020.04.14-03.18.50:750][557]LogTemp: Error: Location is X=-15.495 Y=-725.018 Z=95.000
+[2020.04.14-03.18.50:778][558]LogTemp: Error: Location is X=-7.911 Y=-736.211 Z=95.000
+[2020.04.14-03.18.50:805][559]LogTemp: Error: Location is X=-0.842 Y=-755.320 Z=95.000
+[2020.04.14-03.18.50:833][560]LogTemp: Error: Location is X=11.876 Y=-774.398 Z=95.000
+[2020.04.14-03.18.50:861][561]LogTemp: Error: Location is X=24.400 Y=-786.425 Z=95.000
+[2020.04.14-03.18.50:889][562]LogTemp: Error: Location is X=31.292 Y=-794.084 Z=95.000
+[2020.04.14-03.18.50:918][563]LogTemp: Error: Location is X=32.077 Y=-801.917 Z=95.000
+[2020.04.14-03.18.50:946][564]LogTemp: Error: Location is X=30.706 Y=-807.597 Z=95.000
+[2020.04.14-03.18.50:973][565]LogTemp: Error: Location is X=41.312 Y=-825.357 Z=100.486
+[2020.04.14-03.18.51:001][566]LogTemp: Error: Location is X=46.263 Y=-831.480 Z=100.486
+[2020.04.14-03.18.51:027][567]LogTemp: Error: Location is X=48.333 Y=-835.685 Z=100.486
+[2020.04.14-03.18.51:056][568]LogTemp: Error: Location is X=47.869 Y=-837.692 Z=100.486
+[2020.04.14-03.18.51:084][569]LogTemp: Error: Location is X=48.089 Y=-840.942 Z=100.486
+[2020.04.14-03.18.51:112][570]LogTemp: Error: Location is X=48.853 Y=-843.380 Z=100.486
+[2020.04.14-03.18.51:140][571]LogTemp: Error: Location is X=50.663 Y=-846.817 Z=100.486
+[2020.04.14-03.18.51:168][572]LogTemp: Error: Location is X=52.015 Y=-850.210 Z=100.486
+[2020.04.14-03.18.51:196][573]LogTemp: Error: Location is X=53.023 Y=-852.183 Z=100.486
+[2020.04.14-03.18.51:224][574]LogTemp: Error: Location is X=53.394 Y=-852.821 Z=100.486
+[2020.04.14-03.18.51:252][575]LogTemp: Error: Location is X=53.106 Y=-853.205 Z=100.486
+[2020.04.14-03.18.51:280][576]LogTemp: Error: Location is X=52.643 Y=-853.959 Z=100.486
+[2020.04.14-03.18.51:308][577]LogTemp: Error: Location is X=52.891 Y=-855.475 Z=100.486
+[2020.04.14-03.18.51:336][578]LogTemp: Error: Location is X=53.885 Y=-858.876 Z=100.486
+[2020.04.14-03.18.51:364][579]LogTemp: Error: Location is X=49.986 Y=-852.550 Z=95.000
+[2020.04.14-03.18.51:392][580]LogTemp: Error: Location is X=50.942 Y=-855.112 Z=95.000
+[2020.04.14-03.18.51:419][581]LogTemp: Error: Location is X=52.405 Y=-858.753 Z=95.000
+[2020.04.14-03.18.51:447][582]LogTemp: Error: Location is X=53.015 Y=-857.346 Z=95.000
+[2020.04.14-03.18.51:475][583]LogTemp: Error: Location is X=53.512 Y=-857.791 Z=95.000
+[2020.04.14-03.18.51:503][584]LogTemp: Error: Location is X=52.840 Y=-857.338 Z=95.000
+[2020.04.14-03.18.51:531][585]LogTemp: Error: Location is X=52.937 Y=-857.283 Z=95.000
+[2020.04.14-03.18.51:558][586]LogTemp: Error: Location is X=54.852 Y=-858.452 Z=95.000
+[2020.04.14-03.18.51:587][587]LogTemp: Error: Location is X=57.088 Y=-857.795 Z=95.000
+[2020.04.14-03.18.51:615][588]LogTemp: Error: Location is X=58.559 Y=-854.272 Z=95.000
+[2020.04.14-03.18.51:643][589]LogTemp: Error: Location is X=58.695 Y=-849.767 Z=95.000
+[2020.04.14-03.18.51:671][590]LogTemp: Error: Location is X=59.421 Y=-844.119 Z=95.000
+[2020.04.14-03.18.51:699][591]LogTemp: Error: Location is X=63.427 Y=-837.367 Z=95.000
+[2020.04.14-03.18.51:726][592]LogTemp: Error: Location is X=67.252 Y=-832.994 Z=95.000
+[2020.04.14-03.18.51:754][593]LogTemp: Error: Location is X=70.661 Y=-829.408 Z=95.000
+[2020.04.14-03.18.51:783][594]LogTemp: Error: Location is X=77.748 Y=-826.858 Z=95.000
+[2020.04.14-03.18.51:810][595]LogTemp: Error: Location is X=86.655 Y=-823.980 Z=95.000
+[2020.04.14-03.18.51:837][596]LogTemp: Error: Location is X=91.922 Y=-820.110 Z=95.000
+[2020.04.14-03.18.51:864][597]LogTemp: Error: Location is X=95.851 Y=-814.351 Z=95.000
+[2020.04.14-03.18.51:891][598]LogTemp: Error: Location is X=104.289 Y=-811.291 Z=95.000
+[2020.04.14-03.18.51:919][599]LogTemp: Error: Location is X=115.921 Y=-810.491 Z=95.000
+[2020.04.14-03.18.51:948][600]LogTemp: Error: Location is X=124.696 Y=-810.719 Z=95.000
+[2020.04.14-03.18.51:976][601]LogTemp: Error: Location is X=129.424 Y=-810.775 Z=95.000
+[2020.04.14-03.18.52:004][602]LogTemp: Error: Location is X=138.499 Y=-813.086 Z=95.000
+[2020.04.14-03.18.52:034][603]LogTemp: Error: Location is X=146.715 Y=-814.663 Z=95.000
+[2020.04.14-03.18.52:060][604]LogTemp: Error: Location is X=153.109 Y=-813.673 Z=95.000
+[2020.04.14-03.18.52:088][605]LogTemp: Error: Location is X=158.898 Y=-809.213 Z=95.000
+[2020.04.14-03.18.52:115][606]LogTemp: Error: Location is X=165.886 Y=-808.227 Z=95.000
+[2020.04.14-03.18.52:142][607]LogTemp: Error: Location is X=173.519 Y=-808.613 Z=95.000
+[2020.04.14-03.18.52:170][608]LogTemp: Error: Location is X=179.655 Y=-808.608 Z=95.000
+[2020.04.14-03.18.52:197][609]LogTemp: Error: Location is X=184.307 Y=-806.315 Z=95.000
+[2020.04.14-03.18.52:225][610]LogTemp: Error: Location is X=188.110 Y=-802.560 Z=95.000
+[2020.04.14-03.18.52:253][611]LogTemp: Error: Location is X=192.574 Y=-802.170 Z=95.000
+[2020.04.14-03.18.52:280][612]LogTemp: Error: Location is X=196.621 Y=-801.317 Z=95.000
+[2020.04.14-03.18.52:309][613]LogTemp: Error: Location is X=199.143 Y=-797.354 Z=95.000
+[2020.04.14-03.18.52:336][614]LogTemp: Error: Location is X=199.518 Y=-795.239 Z=95.000
+[2020.04.14-03.18.52:364][615]LogTemp: Error: Location is X=199.416 Y=-795.496 Z=95.000
+[2020.04.14-03.18.52:393][616]LogTemp: Error: Location is X=199.796 Y=-796.746 Z=95.000
+[2020.04.14-03.18.52:420][617]LogTemp: Error: Location is X=200.358 Y=-794.442 Z=95.000
+[2020.04.14-03.18.52:447][618]LogTemp: Error: Location is X=198.104 Y=-794.356 Z=95.000
+[2020.04.14-03.18.52:474][619]LogTemp: Error: Location is X=198.554 Y=-792.776 Z=95.000
+[2020.04.14-03.18.52:502][620]LogTemp: Error: Location is X=199.489 Y=-792.202 Z=95.000
+[2020.04.14-03.18.52:530][621]LogTemp: Error: Location is X=199.545 Y=-791.174 Z=95.000
+[2020.04.14-03.18.52:557][622]LogTemp: Error: Location is X=199.756 Y=-789.242 Z=95.000
+[2020.04.14-03.18.52:586][623]LogTemp: Error: Location is X=201.532 Y=-786.200 Z=95.000
+[2020.04.14-03.18.52:614][624]LogTemp: Error: Location is X=201.305 Y=-787.008 Z=95.000
+[2020.04.14-03.18.52:642][625]LogTemp: Error: Location is X=200.996 Y=-786.476 Z=95.000
+[2020.04.14-03.18.52:670][626]LogTemp: Error: Location is X=201.443 Y=-786.829 Z=95.000
+[2020.04.14-03.18.52:698][627]LogTemp: Error: Location is X=200.377 Y=-786.914 Z=95.000
+[2020.04.14-03.18.52:725][628]LogTemp: Error: Location is X=199.540 Y=-786.901 Z=95.000
+[2020.04.14-03.18.52:753][629]LogTemp: Error: Location is X=197.229 Y=-787.657 Z=95.000
+[2020.04.14-03.18.52:783][630]LogTemp: Error: Location is X=196.894 Y=-788.819 Z=95.000
+[2020.04.14-03.18.52:811][631]LogTemp: Error: Location is X=197.217 Y=-790.254 Z=95.000
+[2020.04.14-03.18.52:838][632]LogTemp: Error: Location is X=196.941 Y=-791.487 Z=95.000
+[2020.04.14-03.18.52:867][633]LogTemp: Error: Location is X=197.005 Y=-791.310 Z=95.000
+[2020.04.14-03.18.52:894][634]LogTemp: Error: Location is X=196.834 Y=-791.354 Z=95.000
+[2020.04.14-03.18.52:921][635]LogTemp: Error: Location is X=196.638 Y=-790.928 Z=95.000
+[2020.04.14-03.18.52:948][636]LogTemp: Error: Location is X=196.544 Y=-790.439 Z=95.000
+[2020.04.14-03.18.52:976][637]LogTemp: Error: Location is X=195.783 Y=-790.626 Z=95.000
+[2020.04.14-03.18.53:003][638]LogTemp: Error: Location is X=195.245 Y=-792.483 Z=95.000
+[2020.04.14-03.18.53:030][639]LogTemp: Error: Location is X=195.073 Y=-795.154 Z=95.000
+[2020.04.14-03.18.53:059][640]LogTemp: Error: Location is X=195.368 Y=-796.084 Z=95.000
+[2020.04.14-03.18.53:088][641]LogTemp: Error: Location is X=195.485 Y=-796.138 Z=95.000
+[2020.04.14-03.18.53:114][642]LogTemp: Error: Location is X=196.205 Y=-795.281 Z=95.000
+[2020.04.14-03.18.53:141][643]LogTemp: Error: Location is X=196.346 Y=-794.448 Z=95.000
+[2020.04.14-03.18.53:169][644]LogTemp: Error: Location is X=196.570 Y=-793.194 Z=95.000
+[2020.04.14-03.18.53:197][645]LogTemp: Error: Location is X=196.479 Y=-792.986 Z=95.000
+[2020.04.14-03.18.53:224][646]LogTemp: Error: Location is X=196.564 Y=-793.204 Z=95.000
+[2020.04.14-03.18.53:251][647]LogTemp: Error: Location is X=196.767 Y=-794.213 Z=95.000
+[2020.04.14-03.18.53:280][648]LogTemp: Error: Location is X=196.862 Y=-795.473 Z=95.000
+[2020.04.14-03.18.53:307][649]LogTemp: Error: Location is X=196.369 Y=-796.060 Z=95.000
+[2020.04.14-03.18.53:336][650]LogTemp: Error: Location is X=196.523 Y=-797.012 Z=95.000
+[2020.04.14-03.18.53:363][651]LogTemp: Error: Location is X=196.693 Y=-798.305 Z=95.000
+[2020.04.14-03.18.53:390][652]LogTemp: Error: Location is X=196.951 Y=-799.624 Z=95.000
+[2020.04.14-03.18.53:419][653]LogTemp: Error: Location is X=198.949 Y=-801.243 Z=95.000
+[2020.04.14-03.18.53:447][654]LogTemp: Error: Location is X=200.688 Y=-800.820 Z=95.000
+[2020.04.14-03.18.53:475][655]LogTemp: Error: Location is X=202.004 Y=-798.893 Z=95.000
+[2020.04.14-03.18.53:503][656]LogTemp: Error: Location is X=203.834 Y=-795.478 Z=95.000
+[2020.04.14-03.18.53:531][657]LogTemp: Error: Location is X=205.789 Y=-792.976 Z=95.000
+[2020.04.14-03.18.53:559][658]LogTemp: Error: Location is X=205.345 Y=-792.933 Z=95.000
+[2020.04.14-03.18.53:588][659]LogTemp: Error: Location is X=204.682 Y=-794.537 Z=95.000
+[2020.04.14-03.18.53:616][660]LogTemp: Error: Location is X=205.071 Y=-796.013 Z=95.000
+[2020.04.14-03.18.53:644][661]LogTemp: Error: Location is X=205.275 Y=-797.346 Z=95.000
+[2020.04.14-03.18.53:672][662]LogTemp: Error: Location is X=205.619 Y=-797.951 Z=95.000
+[2020.04.14-03.18.53:700][663]LogTemp: Error: Location is X=206.575 Y=-799.281 Z=95.000
+[2020.04.14-03.18.53:728][664]LogTemp: Error: Location is X=207.671 Y=-798.634 Z=95.000
+[2020.04.14-03.18.53:756][665]LogTemp: Error: Location is X=207.473 Y=-797.640 Z=95.000
+[2020.04.14-03.18.53:783][666]LogTemp: Error: Location is X=207.518 Y=-797.307 Z=95.000
+[2020.04.14-03.18.53:811][667]LogTemp: Error: Location is X=262.309 Y=-588.834 Z=95.000
+[2020.04.14-03.18.53:838][668]LogTemp: Error: Location is X=258.363 Y=-600.689 Z=95.000
+[2020.04.14-03.18.53:867][669]LogTemp: Error: Location is X=258.745 Y=-600.758 Z=95.000
+[2020.04.14-03.18.53:894][670]LogTemp: Error: Location is X=259.396 Y=-600.430 Z=95.000
+[2020.04.14-03.18.53:922][671]LogTemp: Error: Location is X=260.513 Y=-599.403 Z=95.000
+[2020.04.14-03.18.53:950][672]LogTemp: Error: Location is X=261.843 Y=-597.687 Z=95.000
+[2020.04.14-03.18.53:978][673]LogTemp: Error: Location is X=262.214 Y=-595.741 Z=95.000
+[2020.04.14-03.18.54:006][674]LogTemp: Error: Location is X=264.649 Y=-594.261 Z=95.000
+[2020.04.14-03.18.54:035][675]LogTemp: Error: Location is X=263.431 Y=-608.539 Z=100.486
+[2020.04.14-03.18.54:063][676]LogTemp: Error: Location is X=270.833 Y=-606.404 Z=100.486
+[2020.04.14-03.18.54:092][677]LogTemp: Error: Location is X=287.921 Y=-588.807 Z=95.000
+[2020.04.14-03.18.54:119][678]LogTemp: Error: Location is X=299.777 Y=-587.391 Z=95.000
+[2020.04.14-03.18.54:146][679]LogTemp: Error: Location is X=313.548 Y=-584.639 Z=95.000
+[2020.04.14-03.18.54:175][680]LogTemp: Error: Location is X=326.723 Y=-584.871 Z=95.000
+[2020.04.14-03.18.54:202][681]LogTemp: Error: Location is X=340.049 Y=-589.389 Z=95.000
+[2020.04.14-03.18.54:230][682]LogTemp: Error: Location is X=358.376 Y=-592.685 Z=95.000
+[2020.04.14-03.18.54:258][683]LogTemp: Error: Location is X=380.098 Y=-593.287 Z=95.000
+[2020.04.14-03.18.54:285][684]LogTemp: Error: Location is X=402.132 Y=-589.010 Z=95.000
+[2020.04.14-03.18.54:313][685]LogTemp: Error: Location is X=422.392 Y=-581.024 Z=95.000
+[2020.04.14-03.18.54:343][686]LogTemp: Error: Location is X=436.352 Y=-589.733 Z=100.528
+[2020.04.14-03.18.54:369][687]LogTemp: Error: Location is X=458.938 Y=-582.797 Z=100.405
+[2020.04.14-03.18.54:400][688]LogTemp: Error: Location is X=487.809 Y=-559.775 Z=95.000
+[2020.04.14-03.18.54:427][689]LogTemp: Error: Location is X=510.298 Y=-550.478 Z=95.000
+[2020.04.14-03.18.54:453][690]LogTemp: Error: Location is X=542.629 Y=-521.489 Z=88.997
+[2020.04.14-03.18.54:481][691]LogTemp: Error: Location is X=563.503 Y=-510.886 Z=88.997
+[2020.04.14-03.18.54:509][692]LogTemp: Error: Location is X=588.005 Y=-496.281 Z=88.997
+[2020.04.14-03.18.54:538][693]LogTemp: Error: Location is X=605.706 Y=-485.997 Z=88.997
+[2020.04.14-03.18.54:566][694]LogTemp: Error: Location is X=629.134 Y=-473.904 Z=88.997
+[2020.04.14-03.18.54:594][695]LogTemp: Error: Location is X=650.018 Y=-461.389 Z=88.997
+[2020.04.14-03.18.54:622][696]LogTemp: Error: Location is X=669.474 Y=-452.816 Z=88.997
+[2020.04.14-03.18.55:012][710]LogTemp: Error: Location is X=668.329 Y=-433.866 Z=88.997
+[2020.04.14-03.18.55:040][711]LogTemp: Error: Location is X=653.272 Y=-441.930 Z=88.997
+[2020.04.14-03.18.55:069][712]LogTemp: Error: Location is X=646.870 Y=-448.277 Z=88.997
+[2020.04.14-03.18.55:096][713]LogTemp: Error: Location is X=642.991 Y=-456.284 Z=88.997
+[2020.04.14-03.18.55:125][714]LogTemp: Error: Location is X=640.400 Y=-455.982 Z=88.997
+[2020.04.14-03.18.55:155][715]LogTemp: Error: Location is X=620.469 Y=-490.485 Z=100.486
+[2020.04.14-03.18.55:180][716]LogTemp: Error: Location is X=613.539 Y=-494.004 Z=100.486
+[2020.04.14-03.18.55:208][717]LogTemp: Error: Location is X=626.581 Y=-461.430 Z=88.997
+[2020.04.14-03.18.55:235][718]LogTemp: Error: Location is X=625.839 Y=-468.614 Z=88.997
+[2020.04.14-03.18.55:261][719]LogTemp: Error: Location is X=629.489 Y=-463.812 Z=88.997
+[2020.04.14-03.18.55:290][720]LogTemp: Error: Location is X=629.272 Y=-461.621 Z=88.997
+[2020.04.14-03.18.55:317][721]LogTemp: Error: Location is X=615.229 Y=-498.157 Z=100.486
+[2020.04.14-03.18.55:344][722]LogTemp: Error: Location is X=616.540 Y=-496.240 Z=100.486
+[2020.04.14-03.18.55:372][723]LogTemp: Error: Location is X=621.908 Y=-489.047 Z=100.486
+[2020.04.14-03.18.55:399][724]LogTemp: Error: Location is X=648.256 Y=-415.604 Z=88.998
+[2020.04.14-03.18.55:427][725]LogTemp: Error: Location is X=655.016 Y=-388.496 Z=88.998
+[2020.04.14-03.18.55:456][726]LogTemp: Error: Location is X=647.518 Y=-416.648 Z=88.998
+[2020.04.14-03.18.55:483][727]LogTemp: Error: Location is X=646.309 Y=-423.868 Z=88.997
+[2020.04.14-03.18.55:511][728]LogTemp: Error: Location is X=645.923 Y=-424.145 Z=88.998
+[2020.04.14-03.18.55:539][729]LogTemp: Error: Location is X=644.815 Y=-423.636 Z=88.998
+[2020.04.14-03.18.55:567][730]LogTemp: Error: Location is X=643.649 Y=-424.799 Z=88.997
+[2020.04.14-03.18.55:596][731]LogTemp: Error: Location is X=644.634 Y=-420.554 Z=88.998
+[2020.04.14-03.18.55:624][732]LogTemp: Error: Location is X=645.287 Y=-418.802 Z=88.998
+[2020.04.14-03.18.55:651][733]LogTemp: Error: Location is X=645.041 Y=-419.548 Z=88.998
+[2020.04.14-03.18.55:680][734]LogTemp: Error: Location is X=645.445 Y=-420.864 Z=88.998
+[2020.04.14-03.18.55:708][735]LogTemp: Error: Location is X=645.654 Y=-420.819 Z=88.998
+[2020.04.14-03.18.55:736][736]LogTemp: Error: Location is X=645.945 Y=-420.401 Z=88.998
+[2020.04.14-03.18.55:764][737]LogTemp: Error: Location is X=647.558 Y=-418.682 Z=88.998
+[2020.04.14-03.18.55:792][738]LogTemp: Error: Location is X=649.998 Y=-413.225 Z=88.998
+[2020.04.14-03.18.55:819][739]LogTemp: Error: Location is X=652.193 Y=-408.519 Z=88.998
+[2020.04.14-03.18.55:847][740]LogTemp: Error: Location is X=654.270 Y=-406.080 Z=88.998
+[2020.04.14-03.18.55:875][741]LogTemp: Error: Location is X=654.264 Y=-406.976 Z=88.998
+[2020.04.14-03.18.55:903][742]LogTemp: Error: Location is X=655.101 Y=-407.263 Z=88.998
+[2020.04.14-03.18.55:930][743]LogTemp: Error: Location is X=657.494 Y=-407.457 Z=88.998
+[2020.04.14-03.18.55:958][744]LogTemp: Error: Location is X=658.306 Y=-405.732 Z=88.998
+[2020.04.14-03.18.55:985][745]LogTemp: Error: Location is X=656.753 Y=-401.701 Z=88.998
+[2020.04.14-03.18.56:013][746]LogTemp: Error: Location is X=657.420 Y=-400.152 Z=88.998
+[2020.04.14-03.18.56:041][747]LogTemp: Error: Location is X=657.305 Y=-401.260 Z=88.998
+[2020.04.14-03.18.56:069][748]LogTemp: Error: Location is X=655.672 Y=-410.041 Z=88.998
+[2020.04.14-03.18.56:097][749]LogTemp: Error: Location is X=651.997 Y=-419.970 Z=88.998
+[2020.04.14-03.18.56:126][750]LogTemp: Error: Location is X=650.286 Y=-423.389 Z=88.997
+[2020.04.14-03.18.56:154][751]LogTemp: Error: Location is X=647.158 Y=-426.543 Z=88.997
+[2020.04.14-03.18.56:182][752]LogTemp: Error: Location is X=644.325 Y=-429.061 Z=88.997
+[2020.04.14-03.18.56:209][753]LogTemp: Error: Location is X=642.127 Y=-431.614 Z=88.997
+[2020.04.14-03.18.56:237][754]LogTemp: Error: Location is X=640.474 Y=-431.856 Z=88.997
+[2020.04.14-03.18.56:265][755]LogTemp: Error: Location is X=634.506 Y=-431.669 Z=88.997
+[2020.04.14-03.18.56:293][756]LogTemp: Error: Location is X=614.258 Y=-478.525 Z=100.486
+[2020.04.14-03.18.56:321][757]LogTemp: Error: Location is X=613.948 Y=-479.553 Z=100.486
+[2020.04.14-03.18.56:349][758]LogTemp: Error: Location is X=627.643 Y=-431.294 Z=88.998
+[2020.04.14-03.18.56:376][759]LogTemp: Error: Location is X=623.192 Y=-428.188 Z=88.998
+[2020.04.14-03.18.56:404][760]LogTemp: Error: Location is X=617.018 Y=-426.903 Z=88.998
+[2020.04.14-03.18.56:432][761]LogTemp: Error: Location is X=608.378 Y=-428.811 Z=88.998
+[2020.04.14-03.18.56:459][762]LogTemp: Error: Location is X=597.558 Y=-436.846 Z=88.998
+[2020.04.14-03.18.56:487][763]LogTemp: Error: Location is X=591.042 Y=-450.879 Z=88.997
+[2020.04.14-03.18.56:514][764]LogTemp: Error: Location is X=585.666 Y=-464.249 Z=88.997
+[2020.04.14-03.18.56:543][765]LogTemp: Error: Location is X=581.046 Y=-470.914 Z=88.997
+[2020.04.14-03.18.56:570][766]LogTemp: Error: Location is X=574.650 Y=-472.261 Z=88.997
+[2020.04.14-03.18.56:598][767]LogTemp: Error: Location is X=621.523 Y=-167.807 Z=99.990
+[2020.04.14-03.18.56:627][768]LogTemp: Error: Location is X=609.504 Y=-207.332 Z=99.990
+[2020.04.14-03.18.56:655][769]LogTemp: Error: Location is X=605.783 Y=-209.743 Z=99.990
+[2020.04.14-03.18.56:684][770]LogTemp: Error: Location is X=598.443 Y=-210.764 Z=99.991
+[2020.04.14-03.18.56:713][771]LogTemp: Error: Location is X=590.485 Y=-210.278 Z=99.991
+[2020.04.14-03.18.56:741][772]LogTemp: Error: Location is X=581.518 Y=-215.427 Z=99.991
+[2020.04.14-03.18.56:769][773]LogTemp: Error: Location is X=576.053 Y=-223.248 Z=99.991
+[2020.04.14-03.18.56:796][774]LogTemp: Error: Location is X=570.984 Y=-223.251 Z=99.992
+[2020.04.14-03.18.56:825][775]LogTemp: Error: Location is X=562.470 Y=-223.100 Z=99.992
+[2020.04.14-03.18.56:852][776]LogTemp: Error: Location is X=554.862 Y=-232.125 Z=99.992
+[2020.04.14-03.18.56:881][777]LogTemp: Error: Location is X=548.618 Y=-239.857 Z=99.992
+[2020.04.14-03.18.56:908][778]LogTemp: Error: Location is X=541.976 Y=-246.438 Z=99.992
+[2020.04.14-03.18.56:936][779]LogTemp: Error: Location is X=538.009 Y=-255.411 Z=99.992
+[2020.04.14-03.18.56:963][780]LogTemp: Error: Location is X=535.705 Y=-263.736 Z=99.992
+[2020.04.14-03.18.56:991][781]LogTemp: Error: Location is X=533.528 Y=-269.525 Z=99.992
+[2020.04.14-03.18.57:019][782]LogTemp: Error: Location is X=532.236 Y=-276.945 Z=99.992
+[2020.04.14-03.18.57:046][783]LogTemp: Error: Location is X=530.504 Y=-283.929 Z=99.992
+[2020.04.14-03.18.57:074][784]LogTemp: Error: Location is X=532.333 Y=-292.194 Z=99.992
+[2020.04.14-03.18.57:101][785]LogTemp: Error: Location is X=536.474 Y=-305.180 Z=99.991
+[2020.04.14-03.18.57:130][786]LogTemp: Error: Location is X=539.651 Y=-315.058 Z=99.991
+[2020.04.14-03.18.57:158][787]LogTemp: Error: Location is X=540.593 Y=-321.814 Z=99.990
+[2020.04.14-03.18.57:186][788]LogTemp: Error: Location is X=539.888 Y=-329.050 Z=99.990
+[2020.04.14-03.18.57:214][789]LogTemp: Error: Location is X=537.772 Y=-335.687 Z=99.990
+[2020.04.14-03.18.57:242][790]LogTemp: Error: Location is X=534.279 Y=-341.534 Z=99.990
+[2020.04.14-03.18.57:270][791]LogTemp: Error: Location is X=529.812 Y=-349.146 Z=99.990
+[2020.04.14-03.18.57:298][792]LogTemp: Error: Location is X=525.969 Y=-358.631 Z=99.990
+[2020.04.14-03.18.57:325][793]LogTemp: Error: Location is X=521.495 Y=-369.090 Z=99.990
+[2020.04.14-03.18.57:353][794]LogTemp: Error: Location is X=515.228 Y=-380.698 Z=99.990
+[2020.04.14-03.18.57:381][795]LogTemp: Error: Location is X=509.016 Y=-390.959 Z=98.923
+[2020.04.14-03.18.57:409][796]LogTemp: Error: Location is X=502.819 Y=-397.423 Z=94.726
+[2020.04.14-03.18.57:437][797]LogTemp: Error: Location is X=496.792 Y=-404.567 Z=88.998
+[2020.04.14-03.18.57:465][798]LogTemp: Error: Location is X=490.176 Y=-438.586 Z=100.405
+[2020.04.14-03.18.57:493][799]LogTemp: Error: Location is X=480.422 Y=-438.277 Z=88.998
+[2020.04.14-03.18.57:521][800]LogTemp: Error: Location is X=471.014 Y=-454.453 Z=88.998
+[2020.04.14-03.18.57:548][801]LogTemp: Error: Location is X=462.191 Y=-471.553 Z=88.998
+[2020.04.14-03.18.57:576][802]LogTemp: Error: Location is X=459.871 Y=-479.095 Z=88.998
+[2020.04.14-03.18.57:603][803]LogTemp: Error: Location is X=457.256 Y=-482.709 Z=88.998
+[2020.04.14-03.18.57:630][804]LogTemp: Error: Location is X=456.159 Y=-481.131 Z=88.998
+[2020.04.14-03.18.57:657][805]LogTemp: Error: Location is X=456.700 Y=-482.234 Z=88.998
+[2020.04.14-03.18.57:685][806]LogTemp: Error: Location is X=458.639 Y=-483.513 Z=88.998
+[2020.04.14-03.18.57:713][807]LogTemp: Error: Location is X=459.383 Y=-485.336 Z=88.998
+[2020.04.14-03.18.57:741][808]LogTemp: Error: Location is X=458.389 Y=-488.216 Z=88.998
+[2020.04.14-03.18.57:769][809]LogTemp: Error: Location is X=460.116 Y=-488.473 Z=88.998
+[2020.04.14-03.18.57:797][810]LogTemp: Error: Location is X=463.738 Y=-489.823 Z=88.998
+[2020.04.14-03.18.57:825][811]LogTemp: Error: Location is X=464.177 Y=-491.670 Z=88.998
+[2020.04.14-03.18.57:853][812]LogTemp: Error: Location is X=463.017 Y=-490.877 Z=88.998
+[2020.04.14-03.18.57:881][813]LogTemp: Error: Location is X=463.948 Y=-491.024 Z=88.998
+[2020.04.14-03.18.57:910][814]LogTemp: Error: Location is X=463.917 Y=-491.158 Z=88.997
+[2020.04.14-03.18.57:937][815]LogTemp: Error: Location is X=463.179 Y=-491.091 Z=88.998
+[2020.04.14-03.18.57:964][816]LogTemp: Error: Location is X=463.033 Y=-490.833 Z=88.997
+[2020.04.14-03.18.57:993][817]LogTemp: Error: Location is X=463.368 Y=-490.487 Z=88.998
+[2020.04.14-03.18.58:021][818]LogTemp: Error: Location is X=464.209 Y=-489.532 Z=88.998
+[2020.04.14-03.18.58:051][819]LogTemp: Error: Location is X=464.152 Y=-488.437 Z=88.998
+[2020.04.14-03.18.58:078][820]LogTemp: Error: Location is X=464.466 Y=-486.165 Z=88.998
+[2020.04.14-03.18.58:107][821]LogTemp: Error: Location is X=463.859 Y=-484.561 Z=88.998
+[2020.04.14-03.18.58:133][822]LogTemp: Error: Location is X=464.240 Y=-483.788 Z=88.998
+[2020.04.14-03.18.58:159][823]LogTemp: Error: Location is X=464.570 Y=-482.845 Z=88.998
+[2020.04.14-03.18.58:187][824]LogTemp: Error: Location is X=464.798 Y=-482.183 Z=88.998
+[2020.04.14-03.18.58:215][825]LogTemp: Error: Location is X=465.826 Y=-480.464 Z=88.998
+[2020.04.14-03.18.58:243][826]LogTemp: Error: Location is X=465.298 Y=-480.709 Z=88.998
+[2020.04.14-03.18.58:270][827]LogTemp: Error: Location is X=464.859 Y=-480.085 Z=88.998
+[2020.04.14-03.18.58:298][828]LogTemp: Error: Location is X=465.462 Y=-480.216 Z=88.998
+[2020.04.14-03.18.58:328][829]LogTemp: Error: Location is X=466.570 Y=-481.094 Z=88.998
+[2020.04.14-03.18.58:356][830]LogTemp: Error: Location is X=469.233 Y=-482.808 Z=88.998
+[2020.04.14-03.18.58:389][831]LogTemp: Error: Location is X=471.319 Y=-483.531 Z=88.998
+[2020.04.14-03.18.58:411][832]LogTemp: Error: Location is X=476.032 Y=-480.232 Z=88.998
+[2020.04.14-03.18.58:449][833]LogTemp: Error: Location is X=481.026 Y=-468.425 Z=88.998
+[2020.04.14-03.18.58:472][834]LogTemp: Error: Location is X=479.740 Y=-453.673 Z=88.998
+[2020.04.14-03.18.58:503][835]LogTemp: Error: Location is X=482.826 Y=-437.072 Z=88.998
+[2020.04.14-03.18.58:537][836]LogTemp: Error: Location is X=487.201 Y=-435.050 Z=88.998
+[2020.04.14-03.18.58:569][837]LogTemp: Error: Location is X=493.413 Y=-432.734 Z=88.998
+[2020.04.14-03.18.58:600][838]LogTemp: Error: Location is X=489.766 Y=-457.794 Z=100.492
+[2020.04.14-03.18.58:632][839]LogTemp: Error: Location is X=493.254 Y=-457.712 Z=100.467
+[2020.04.14-03.18.58:659][840]LogTemp: Error: Location is X=496.881 Y=-458.125 Z=100.447
+[2020.04.14-03.18.58:686][841]LogTemp: Error: Location is X=498.981 Y=-458.236 Z=100.434
+[2020.04.14-03.18.58:713][842]LogTemp: Error: Location is X=501.633 Y=-460.457 Z=100.518
+[2020.04.14-03.18.58:739][843]LogTemp: Error: Location is X=510.650 Y=-442.554 Z=88.998
+[2020.04.14-03.18.58:767][844]LogTemp: Error: Location is X=517.564 Y=-447.299 Z=88.998
+[2020.04.14-03.18.58:796][845]LogTemp: Error: Location is X=530.986 Y=-454.293 Z=88.998
+[2020.04.14-03.18.58:824][846]LogTemp: Error: Location is X=560.104 Y=-457.704 Z=88.997
+[2020.04.14-03.18.58:852][847]LogTemp: Error: Location is X=600.142 Y=-464.695 Z=88.997
+[2020.04.14-03.18.58:880][848]LogTemp: Error: Location is X=624.720 Y=-486.113 Z=88.997
+[2020.04.14-03.18.58:908][849]LogTemp: Error: Location is X=653.260 Y=-491.569 Z=88.997
+[2020.04.14-03.18.58:935][850]LogTemp: Error: Location is X=1375.000 Y=-237.511 Z=-92.518
+[2020.04.14-03.18.58:964][851]LogTemp: Error: Location is X=1375.000 Y=-372.086 Z=-35.421
+[2020.04.14-03.18.58:993][852]LogTemp: Error: Location is X=1375.000 Y=-453.365 Z=-15.552
+[2020.04.14-03.18.59:020][853]LogTemp: Error: Location is X=781.618 Y=-551.749 Z=95.000
+[2020.04.14-03.18.59:048][854]LogTemp: Error: Location is X=1375.000 Y=-450.513 Z=-73.267
+[2020.04.14-03.18.59:075][855]LogTemp: Error: Location is X=1375.000 Y=-314.430 Z=-140.713
+[2020.04.14-03.18.59:102][856]LogTemp: Error: Location is X=1375.000 Y=-414.136 Z=-87.753
+[2020.04.14-03.18.59:130][857]LogTemp: Error: Location is X=821.401 Y=-550.775 Z=95.000
+[2020.04.14-03.18.59:158][858]LogTemp: Error: Location is X=853.548 Y=-578.288 Z=95.000
+[2020.04.14-03.18.59:186][859]LogTemp: Error: Location is X=766.127 Y=-577.184 Z=95.000
+[2020.04.14-03.18.59:214][860]LogTemp: Error: Location is X=770.124 Y=-558.089 Z=95.000
+[2020.04.14-03.18.59:243][861]LogTemp: Error: Location is X=1375.000 Y=-424.759 Z=-72.294
+[2020.04.14-03.18.59:270][862]LogTemp: Error: Location is X=1375.000 Y=-452.452 Z=-87.054
+[2020.04.14-03.18.59:298][863]LogTemp: Error: Location is X=744.579 Y=-558.600 Z=95.000
+[2020.04.14-03.18.59:327][864]LogTemp: Error: Location is X=733.211 Y=-604.957 Z=95.000
+[2020.04.14-03.18.59:356][865]LogTemp: Error: Location is X=741.658 Y=-662.936 Z=95.000
+[2020.04.14-03.18.59:384][866]LogTemp: Error: Location is X=801.862 Y=-635.316 Z=95.000
+[2020.04.14-03.18.59:411][867]LogTemp: Error: Location is X=1066.686 Y=-630.667 Z=95.000
+[2020.04.14-03.18.59:467][869]LogTemp: Error: Location is X=1336.979 Y=-762.147 Z=95.000
+[2020.04.14-03.18.59:495][870]LogTemp: Error: Location is X=772.993 Y=-629.769 Z=95.000
+[2020.04.14-03.18.59:523][871]LogTemp: Error: Location is X=836.360 Y=-635.071 Z=95.000
+[2020.04.14-03.18.59:551][872]LogTemp: Error: Location is X=804.077 Y=-628.065 Z=95.000
+[2020.04.14-03.18.59:579][873]LogTemp: Error: Location is X=764.294 Y=-627.350 Z=95.000
+[2020.04.14-03.18.59:608][874]LogTemp: Error: Location is X=699.639 Y=-606.692 Z=95.000
+[2020.04.14-03.18.59:635][875]LogTemp: Error: Location is X=659.152 Y=-585.282 Z=95.000
+[2020.04.14-03.18.59:664][876]LogTemp: Error: Location is X=635.029 Y=-584.247 Z=95.000
+[2020.04.14-03.18.59:692][877]LogTemp: Error: Location is X=624.871 Y=-585.433 Z=95.000
+[2020.04.14-03.18.59:719][878]LogTemp: Error: Location is X=612.256 Y=-582.688 Z=95.000
+[2020.04.14-03.18.59:747][879]LogTemp: Error: Location is X=599.073 Y=-574.794 Z=95.000
+[2020.04.14-03.18.59:773][880]LogTemp: Error: Location is X=588.978 Y=-569.289 Z=95.000
+[2020.04.14-03.18.59:800][881]LogTemp: Error: Location is X=584.130 Y=-567.121 Z=95.000
+[2020.04.14-03.18.59:828][882]LogTemp: Error: Location is X=581.374 Y=-570.721 Z=95.000
+[2020.04.14-03.18.59:857][883]LogTemp: Error: Location is X=580.309 Y=-574.403 Z=95.000
+[2020.04.14-03.18.59:885][884]LogTemp: Error: Location is X=573.756 Y=-574.299 Z=95.000
+[2020.04.14-03.18.59:913][885]LogTemp: Error: Location is X=572.260 Y=-575.708 Z=95.000
+[2020.04.14-03.18.59:941][886]LogTemp: Error: Location is X=572.226 Y=-577.640 Z=95.000
+[2020.04.14-03.18.59:969][887]LogTemp: Error: Location is X=572.400 Y=-579.666 Z=95.000
+[2020.04.14-03.18.59:997][888]LogTemp: Error: Location is X=572.829 Y=-580.068 Z=95.000
+[2020.04.14-03.19.00:025][889]LogTemp: Error: Location is X=572.120 Y=-580.408 Z=95.000
+[2020.04.14-03.19.00:054][890]LogTemp: Error: Location is X=572.061 Y=-580.403 Z=95.000
+[2020.04.14-03.19.00:082][891]LogTemp: Error: Location is X=572.695 Y=-580.596 Z=95.000
+[2020.04.14-03.19.00:110][892]LogTemp: Error: Location is X=571.695 Y=-579.859 Z=95.000
+[2020.04.14-03.19.00:137][893]LogTemp: Error: Location is X=571.308 Y=-578.001 Z=95.000
+[2020.04.14-03.19.00:165][894]LogTemp: Error: Location is X=571.618 Y=-573.752 Z=95.000
+[2020.04.14-03.19.00:192][895]LogTemp: Error: Location is X=572.184 Y=-569.218 Z=95.000
+[2020.04.14-03.19.00:219][896]LogTemp: Error: Location is X=574.130 Y=-562.244 Z=95.000
+[2020.04.14-03.19.00:248][897]LogTemp: Error: Location is X=576.544 Y=-557.898 Z=95.000
+[2020.04.14-03.19.00:276][898]LogTemp: Error: Location is X=579.327 Y=-553.353 Z=95.000
+[2020.04.14-03.19.00:304][899]LogTemp: Error: Location is X=591.589 Y=-544.275 Z=88.997
+[2020.04.14-03.19.00:331][900]LogTemp: Error: Location is X=592.451 Y=-538.381 Z=88.997
+[2020.04.14-03.19.00:360][901]LogTemp: Error: Location is X=593.294 Y=-528.256 Z=88.997
+[2020.04.14-03.19.00:388][902]LogTemp: Error: Location is X=594.198 Y=-519.473 Z=88.997
+[2020.04.14-03.19.00:416][903]LogTemp: Error: Location is X=596.531 Y=-511.176 Z=88.997
+[2020.04.14-03.19.00:446][904]LogTemp: Error: Location is X=597.266 Y=-500.980 Z=88.997
+[2020.04.14-03.19.00:473][905]LogTemp: Error: Location is X=594.891 Y=-492.462 Z=88.997
+[2020.04.14-03.19.00:501][906]LogTemp: Error: Location is X=580.414 Y=-492.987 Z=88.997
+[2020.04.14-03.19.00:528][907]LogTemp: Error: Location is X=571.188 Y=-486.133 Z=88.997
+[2020.04.14-03.19.00:557][908]LogTemp: Error: Location is X=566.460 Y=-481.390 Z=88.997
+[2020.04.14-03.19.00:586][909]LogTemp: Error: Location is X=566.460 Y=-481.390 Z=88.997
+[2020.04.14-03.19.00:614][910]LogTemp: Error: Location is X=566.460 Y=-481.390 Z=88.997
+[2020.04.14-03.19.00:644][911]LogTemp: Error: Location is X=528.193 Y=-479.904 Z=88.997
+[2020.04.14-03.19.00:670][912]LogTemp: Error: Location is X=517.894 Y=-484.282 Z=88.997
+[2020.04.14-03.19.00:697][913]LogTemp: Error: Location is X=513.859 Y=-482.421 Z=88.997
+[2020.04.14-03.19.00:725][914]LogTemp: Error: Location is X=526.802 Y=-458.257 Z=88.998
+[2020.04.14-03.19.00:753][915]LogTemp: Error: Location is X=533.033 Y=-450.993 Z=88.998
+[2020.04.14-03.19.00:781][916]LogTemp: Error: Location is X=513.622 Y=-473.126 Z=88.998
+[2020.04.14-03.19.00:809][917]LogTemp: Error: Location is X=502.064 Y=-473.698 Z=88.998
+[2020.04.14-03.19.00:836][918]LogTemp: Error: Location is X=502.664 Y=-464.347 Z=88.998
+[2020.04.14-03.19.00:920][919]LogTemp: Error: Location is X=512.462 Y=-461.724 Z=88.998
+[2020.04.14-03.19.00:948][920]LogTemp: Error: Location is X=509.424 Y=-447.437 Z=88.998
+[2020.04.14-03.19.00:976][921]LogTemp: Error: Location is X=511.401 Y=-442.930 Z=88.998
+[2020.04.14-03.19.01:004][922]LogTemp: Error: Location is X=508.978 Y=-445.484 Z=88.998
+[2020.04.14-03.19.01:032][923]LogTemp: Error: Location is X=494.064 Y=-462.872 Z=100.655
+[2020.04.14-03.19.01:060][924]LogTemp: Error: Location is X=493.960 Y=-445.019 Z=88.998
+[2020.04.14-03.19.01:088][925]LogTemp: Error: Location is X=484.631 Y=-449.862 Z=88.998
+[2020.04.14-03.19.01:115][926]LogTemp: Error: Location is X=477.570 Y=-449.127 Z=88.998
+[2020.04.14-03.19.01:142][927]LogTemp: Error: Location is X=469.316 Y=-455.044 Z=88.998
+[2020.04.14-03.19.01:171][928]LogTemp: Error: Location is X=465.681 Y=-461.575 Z=88.998
+[2020.04.14-03.19.01:199][929]LogTemp: Error: Location is X=460.535 Y=-463.680 Z=88.998
+[2020.04.14-03.19.01:226][930]LogTemp: Error: Location is X=455.268 Y=-466.281 Z=88.998
+[2020.04.14-03.19.01:254][931]LogTemp: Error: Location is X=449.685 Y=-470.495 Z=88.998
+[2020.04.14-03.19.01:282][932]LogTemp: Error: Location is X=448.682 Y=-466.995 Z=88.998
+[2020.04.14-03.19.01:310][933]LogTemp: Error: Location is X=447.459 Y=-449.894 Z=88.998
+[2020.04.14-03.19.01:338][934]LogTemp: Error: Location is X=435.781 Y=-456.165 Z=93.950
+[2020.04.14-03.19.01:366][935]LogTemp: Error: Location is X=446.257 Y=-448.255 Z=92.915
+[2020.04.14-03.19.01:394][936]LogTemp: Error: Location is X=447.191 Y=-447.486 Z=93.083
+[2020.04.14-03.19.01:422][937]LogTemp: Error: Location is X=442.660 Y=-451.042 Z=94.325
+[2020.04.14-03.19.01:449][938]LogTemp: Error: Location is X=434.342 Y=-457.236 Z=99.114
+[2020.04.14-03.19.01:477][939]LogTemp: Error: Location is X=423.506 Y=-448.036 Z=99.990
+[2020.04.14-03.19.01:504][940]LogTemp: Error: Location is X=420.869 Y=-454.347 Z=99.990
+[2020.04.14-03.19.01:532][941]LogTemp: Error: Location is X=417.097 Y=-465.135 Z=99.990
+[2020.04.14-03.19.01:560][942]LogTemp: Error: Location is X=406.768 Y=-469.591 Z=99.990
+[2020.04.14-03.19.01:588][943]LogTemp: Error: Location is X=404.865 Y=-452.143 Z=99.991
+[2020.04.14-03.19.01:616][944]LogTemp: Error: Location is X=406.257 Y=-454.437 Z=99.990
+[2020.04.14-03.19.01:644][945]LogTemp: Error: Location is X=398.447 Y=-446.100 Z=99.991
+[2020.04.14-03.19.01:672][946]LogTemp: Error: Location is X=386.704 Y=-441.209 Z=99.991
+[2020.04.14-03.19.01:700][947]LogTemp: Error: Location is X=379.674 Y=-439.658 Z=99.992
+[2020.04.14-03.19.01:728][948]LogTemp: Error: Location is X=385.110 Y=-446.006 Z=99.991
+[2020.04.14-03.19.01:756][949]LogTemp: Error: Location is X=386.530 Y=-459.401 Z=99.991
+[2020.04.14-03.19.01:783][950]LogTemp: Error: Location is X=364.053 Y=-438.839 Z=99.992
+[2020.04.14-03.19.01:811][951]LogTemp: Error: Location is X=322.276 Y=-374.140 Z=88.998
+[2020.04.14-03.19.01:839][952]LogTemp: Error: Location is X=314.819 Y=-377.155 Z=88.998
+[2020.04.14-03.19.01:867][953]LogTemp: Error: Location is X=361.684 Y=-458.096 Z=99.991
+[2020.04.14-03.19.01:894][954]LogTemp: Error: Location is X=360.339 Y=-473.753 Z=99.991
+[2020.04.14-03.19.01:922][955]LogTemp: Error: Location is X=338.770 Y=-472.106 Z=99.991
+[2020.04.14-03.19.01:923][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-03.19.01:934][955]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.04.14-03.19.01:954][955]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.04.14-03.19.01:954][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.14-03.19.01:969][955]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-03.19.01:970][955]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMap
+[2020.04.14-03.19.02:009][955]LogSlate: Window 'ArchitectureExplorer Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.04.14-03.19.02:012][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-03.19.02:013][955]LogWorld: UWorld::CleanupWorld for MainMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.14-03.19.02:016][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-03.19.02:022][955]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.14-03.19.02:022][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.14-03.19.02:031][955]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.14-03.19.02:076][955]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.14-03.19.02:093][955]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.04.14-03.19.02:103][956]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2020.04.14-03.19.02:107][956]LogEngine: Changing dynamic resolution state.
+[2020.04.14-03.19.03:690][959]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-03.19.03:690][959]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-03.19.03:690][959]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-03.19.04:135][960]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-03.19.04:636][960]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
