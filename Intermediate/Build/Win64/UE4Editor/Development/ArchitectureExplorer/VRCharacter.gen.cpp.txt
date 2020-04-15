@@ -6,4 +6,6 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFra
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+c:\users\jaqso\documents\unreal\projects\architectureexplorer\source\architectureexplorer\HandController.h
+c:\users\jaqso\documents\unreal\projects\architectureexplorer\intermediate\build\win64\ue4editor\inc\architectureexplorer\HandController.generated.h
 c:\users\jaqso\documents\unreal\projects\architectureexplorer\intermediate\build\win64\ue4editor\inc\architectureexplorer\VRCharacter.generated.h

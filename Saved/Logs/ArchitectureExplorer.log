@@ -648,3 +648,135 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.14-20.41.20:851][431]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
 [2020.04.14-20.41.21:352][432]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
 [2020.04.14-20.41.21:821][433]LogRendererCore: Warning: Query 'SlateUI' not ready.
+[2020.04.14-22.54.52:051][434]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0119.dll
+[2020.04.14-22.54.53:405][439]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.14-22.54.53:474][439]LogUObjectHash: Compacting FUObjectHashTables data took   7.36ms
+[2020.04.14-22.54.53:520][439]LogClass: Could not find existing class HandController in package /Script/ArchitectureExplorer for HotReload, assuming new class
+[2020.04.14-22.54.53:544][439]LogHotReload: Re-instancing HandController after hot-reload.
+[2020.04.14-22.54.53:723][439]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0016 seconds. Added 3 classes and 2 folders.
+[2020.04.14-22.54.53:727][439]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.14-22.54.53:799][439]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2020.04.14-22.54.53:821][439]LogContentBrowser: Native class hierarchy populated in 0.0110 seconds. Added 3020 classes and 722 folders.
+[2020.04.14-22.54.53:826][439]Display: HotReload took  0.4s.
+[2020.04.14-22.55.47:944][601]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0120.dll
+[2020.04.14-22.55.48:971][605]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.14-22.55.49:017][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2020.04.14-22.55.49:022][605]LogClass: Could not find existing class HandController in package /Script/ArchitectureExplorer for HotReload, assuming new class
+[2020.04.14-22.55.49:022][605]LogClass: Function ActorBeginOverlap is new.
+[2020.04.14-22.55.49:022][605]LogClass: Function ActorEndOverlap is new.
+[2020.04.14-22.55.49:041][605]LogHotReload: Re-instancing HandController after hot-reload.
+[2020.04.14-22.55.49:192][605]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2020.04.14-22.55.49:195][605]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.04.14-22.55.49:263][605]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.04.14-22.55.49:277][605]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 3020 classes and 722 folders.
+[2020.04.14-22.55.49:281][605]Display: HotReload took  0.3s.
+[2020.04.14-22.59.15:339][222]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-22.59.15:840][223]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-23.00.32:362][450]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-23.00.32:863][451]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s) (ErrorCode 00000001)
+[2020.04.14-23.03.25:501][961]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0122.dll
+[2020.04.14-23.03.26:870][966]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.14-23.03.26:927][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.04.14-23.03.26:959][966]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0007 seconds. Added 3 classes and 2 folders.
+[2020.04.14-23.03.26:965][966]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.04.14-23.03.27:036][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.04.14-23.03.27:056][966]LogContentBrowser: Native class hierarchy populated in 0.0132 seconds. Added 3020 classes and 722 folders.
+[2020.04.14-23.03.27:061][966]Display: HotReload took  0.2s.
+[2020.04.14-23.05.45:332][380]LogHotReload: New module detected: UE4Editor-ArchitectureExplorer-0123.dll
+[2020.04.14-23.05.46:365][384]LogHotReload: Starting Hot-Reload from IDE
+[2020.04.14-23.05.46:423][384]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.04.14-23.05.46:468][384]LogContentBrowser: Native class hierarchy updated for 'ArchitectureExplorer' in 0.0006 seconds. Added 3 classes and 2 folders.
+[2020.04.14-23.05.46:474][384]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2020.04.14-23.05.46:554][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2020.04.14-23.05.46:573][384]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 3020 classes and 722 folders.
+[2020.04.14-23.05.46:577][384]Display: HotReload took  0.2s.
+[2020.04.14-23.05.53:420][519]LogTemp: Repeating last play command: VR Preview
+[2020.04.14-23.05.53:452][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.14-23.05.53:453][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.14-23.05.53:465][519]PIE: New page: PIE session: MainMap (Apr 14, 2020, 9:05:53 AM)
+[2020.04.14-23.05.53:477][519]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.14-23.05.53:481][519]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.14-23.05.53:482][519]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMap
+[2020.04.14-23.05.53:598][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110945s)
+[2020.04.14-23.05.53:602][519]LogAIModule: Creating AISystem for world MainMap
+[2020.04.14-23.05.53:604][519]LogPlayLevel: PIE: World Init took: (0.005193s)
+[2020.04.14-23.05.53:604][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMap.MainMap to /Game/UEDPIE_0_MainMap.MainMap (0.121237s)
+[2020.04.14-23.05.53:636][519]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2020.04.14-23.05.53:644][519]LogHMD: Initializing OVRPlugin session
+[2020.04.14-23.05.53:775][519]LogHMD: Allocating Oculus 3616 x 2000 rendertarget swapchain
+[2020.04.14-23.05.53:776][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.14-23.05.53:776][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.14-23.05.53:776][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.14-23.05.53:776][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.14-23.05.53:776][519]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.14-23.05.53:776][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.14-23.05.53:776][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.14-23.05.53:776][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.14-23.05.53:777][519]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.14-23.05.53:777][519]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: Channel Order:
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-23.05.53:813][519]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-23.05.53:816][519]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.14-23.05.53:816][519]LogAudioMixer: Display: Name: Speakers (Realtek(R) Audio)
+[2020.04.14-23.05.53:816][519]LogAudioMixer: Display: Is Default: Yes
+[2020.04.14-23.05.53:816][519]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.14-23.05.53:816][519]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.14-23.05.53:817][519]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.14-23.05.53:817][519]LogAudioMixer: Display: Channel Order:
+[2020.04.14-23.05.53:817][519]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.14-23.05.53:817][519]LogAudioMixer: Display: 1: FrontRight
+[2020.04.14-23.05.53:835][519]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.04.14-23.05.53:837][519]LogInit: FAudioDevice initialized.
+[2020.04.14-23.05.53:859][519]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.14-23.05.53:893][519]LogLoad: Game class is 'BP_VRGameMode_C'
+[2020.04.14-23.05.53:928][519]LogWorld: Bringing World /Game/UEDPIE_0_MainMap.MainMap up for play (max tick rate 0) at 2020.04.14-16.05.53
+[2020.04.14-23.05.53:929][519]LogWorld: Bringing up level for play took: 0.029004
+[2020.04.14-23.05.53:929][519]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.04.14-23.05.53:961][519]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.04.14-23.05.53:964][519]PIE: Warning: AttachTo: '/Game/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_VRCharacter_C_0.Teleport Path' is not static  (in blueprint "BP_VRCharacter"), cannot attach '/Game/UEDPIE_0_MainMap.MainMap:PersistentLevel.BP_VRCharacter_C_0.SplineMesh' which is static to it. Aborting.
+[2020.04.14-23.05.53:971][519]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.04.14-23.05.53:971][519]LogSpawn: Warning: SpawnActor failed because no class was specified
+[2020.04.14-23.05.54:004][519]PIE: Play in editor start time for /Game/UEDPIE_0_MainMap -0.042
+[2020.04.14-23.05.54:008][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/MainMap.MainMap:PersistentLevel' has LevelScriptBlueprint '/Game/MainMap.MainMap:PersistentLevel.MainMap' with GeneratedClass '/Game/MainMap.MainMap_C' with ClassGeneratedBy '/Game/MainMap.MainMap:PersistentLevel.MainMap'
+[2020.04.14-23.05.54:008][519]LogEngine: Changing dynamic resolution state.
+[2020.04.14-23.05.56:380][519]LogWindows: Error: === Critical error: ===
+[2020.04.14-23.05.56:380][519]LogWindows: Error: 
+[2020.04.14-23.05.56:380][519]LogWindows: Error: Fatal error!
+[2020.04.14-23.05.56:380][519]LogWindows: Error: 
+[2020.04.14-23.05.56:380][519]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000148
+[2020.04.14-23.05.56:380][519]LogWindows: Error: 
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007fff2e7b551b UE4Editor-ArchitectureExplorer-0123.dll!AVRCharacter::FindTeleportDestination() [c:\users\jaqso\documents\unreal\projects\architectureexplorer\source\architectureexplorer\vrcharacter.cpp:150]
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007fff2e7b65ae UE4Editor-ArchitectureExplorer-0123.dll!AVRCharacter::UpdateDestinationMarker() [c:\users\jaqso\documents\unreal\projects\architectureexplorer\source\architectureexplorer\vrcharacter.cpp:289]
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007fff2e7b6458 UE4Editor-ArchitectureExplorer-0123.dll!AVRCharacter::Tick() [c:\users\jaqso\documents\unreal\projects\architectureexplorer\source\architectureexplorer\vrcharacter.cpp:95]
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefd5cf402 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefd597866 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefe6d7223 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefe6e5256 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007fff00359ff2 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007fff0035a393 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007fff0036aa68 UE4Editor-Core.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefe7038b0 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefe7097c2 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefde8a25f UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefde95127 UE4Editor-Engine.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefc02ad60 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ffefc88e476 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ff781dd7f62 UE4Editor.exe!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ff781dec3ec UE4Editor.exe!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ff781dec4ca UE4Editor.exe!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ff781dfceae UE4Editor.exe!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007ff781dffcbe UE4Editor.exe!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007fff71707bd4 KERNEL32.DLL!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: [Callstack] 0x00007fff7190ced1 ntdll.dll!UnknownFunction []
+[2020.04.14-23.05.56:380][519]LogWindows: Error: 
+[2020.04.14-23.05.56:403][519]LogExit: Executing StaticShutdownAfterError
+[2020.04.14-23.05.56:611][519]LogWindows: FPlatformMisc::RequestExit(1)
+[2020.04.14-23.05.56:611][519]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.04.14-23.05.56:627][519]Log file closed, 04/14/20 16:05:56

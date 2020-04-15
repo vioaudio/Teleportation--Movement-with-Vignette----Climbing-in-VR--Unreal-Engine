@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "HandController.h"
 #include "VRCharacter.generated.h"
 
 UCLASS()
@@ -32,8 +33,12 @@ private:
 	FVector2D GetBlinkersCenter();
 	bool FindTeleportDestination(TArray<FVector> &OutPath, FVector &OutLocation);
 	void FinishTeleport();
+	void GripLeft() {LeftController->Grip(); }
+	void GripRight() {RightController->Grip(); }
 	void MoveForward(float throttle);
 	void MoveRight(float throttle);
+	void ReleaseLeft(){LeftController->Release();}
+	void ReleaseRight(){RightController->Release();}
 	void StartCameraFade(float FromAlpha, float ToAlpha);
 	void UpdateBlinkers();
 	void UpdateSpline(const TArray<FVector> &Path);
@@ -48,9 +53,9 @@ private:
 	UPROPERTY()
 	class UMaterialInstanceDynamic* BlinkerMaterialInstance;
 	UPROPERTY(VisibleAnywhere)
-	class AHandController* LeftController;
+	AHandController* LeftController;
 	UPROPERTY(VisibleAnywhere)
-	class AHandController* RightController;
+	AHandController* RightController;
 	UPROPERTY()
 	class UPostProcessComponent* PostProcessComponent;
 	UPROPERTY(VisibleAnywhere)

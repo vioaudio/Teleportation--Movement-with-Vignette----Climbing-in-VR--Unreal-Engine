@@ -16,8 +16,10 @@ public:
 	// Sets default values for this actor's properties
 	AHandController();
 
+	void Grip();
+	void PairController(AHandController* Controller); //References other controller
+	void Release();
 	void SetHand(EControllerHand Hand); //Public Method used so we can set hands in VRCharacter
-
 
 protected:
 	// Called when the game starts or when spawned
@@ -30,5 +32,27 @@ public:
 private:
 	//Default Sub Object
 	UPROPERTY(VisibleAnywhere)
-		class UMotionControllerComponent* MotionController;
+		class UMotionControllerComponent* MotionController;	
+
+	//Callbacks
+	UFUNCTION()
+	void ActorBeginOverlap(AActor* OverlappedActor, AActor* OtherActor);
+	UFUNCTION()
+	void ActorEndOverlap(AActor* OverlappedActor, AActor* OtherActor);
+	UFUNCTION()
+	void HapticFeedback();
+
+	//Helpers
+	bool CanClimb() const;
+	EControllerHand HandPass;
+
+	//Parameters
+	UPROPERTY(EditDefaultsOnly)
+		class UHapticFeedbackEffect_Base* HapticCurve;
+
+	//State
+	bool bCanClimb = false;
+	bool bIsClimbing = false;
+	FVector ClimbingStartLocation;
+	AHandController* OtherController;
 };

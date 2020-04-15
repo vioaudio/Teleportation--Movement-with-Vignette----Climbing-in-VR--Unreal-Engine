@@ -8,14 +8,75 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class AActor;
 #ifdef ARCHITECTUREEXPLORER_HandController_generated_h
 #error "HandController.generated.h already included, missing '#pragma once' in HandController.h"
 #endif
 #define ARCHITECTUREEXPLORER_HandController_generated_h
 
 #define ArchitectureExplorer_Source_ArchitectureExplorer_HandController_h_13_SPARSE_DATA
-#define ArchitectureExplorer_Source_ArchitectureExplorer_HandController_h_13_RPC_WRAPPERS
-#define ArchitectureExplorer_Source_ArchitectureExplorer_HandController_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define ArchitectureExplorer_Source_ArchitectureExplorer_HandController_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execHapticFeedback) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HapticFeedback(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execActorEndOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActorEndOverlap(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execActorBeginOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActorBeginOverlap(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	}
+
+
+#define ArchitectureExplorer_Source_ArchitectureExplorer_HandController_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execHapticFeedback) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HapticFeedback(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execActorEndOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActorEndOverlap(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execActorBeginOverlap) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_OverlappedActor); \
+		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->ActorBeginOverlap(Z_Param_OverlappedActor,Z_Param_OtherActor); \
+		P_NATIVE_END; \
+	}
+
+
 #define ArchitectureExplorer_Source_ArchitectureExplorer_HandController_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHandController(); \
@@ -59,7 +120,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHandController); \
 
 
 #define ArchitectureExplorer_Source_ArchitectureExplorer_HandController_h_13_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MotionController() { return STRUCT_OFFSET(AHandController, MotionController); }
+	FORCEINLINE static uint32 __PPO__MotionController() { return STRUCT_OFFSET(AHandController, MotionController); } \
+	FORCEINLINE static uint32 __PPO__HapticCurve() { return STRUCT_OFFSET(AHandController, HapticCurve); }
 
 
 #define ArchitectureExplorer_Source_ArchitectureExplorer_HandController_h_10_PROLOG
